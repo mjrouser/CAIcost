@@ -1,267 +1,237 @@
 <html>
 <head>
-<title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-  <script src="file://C:\\Users\\kparupathi\\Desktop\\MASSIT_DEMO\\Sampledata1.jsonp"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="Sampledata1.jsonp"></script>
 </head>
+
 <body>
-<div class="row" style="margin-left:20px">
-<!--Adding Header Message-->
-<div class="page-header">
-  <h2 align="center" style="color:#265a88">Cost Comparision Tools</h2>
-</div>
-<div class="col-lg-3">
-<!--Adding Vendor type dropdown list-->
-<div class="row">
-<div class="col-lg-5">Select Vendor type</div>
+    <div class="row" style="margin-left:20px">
+        <!--Adding Header Message-->
+        <div class="page-header">
+            <h2 align="center" style="color:#265a88">Cost Comparison Tools</h2>
+        </div>
+        <div class="col-lg-3">
+            <!--Adding Vendor type dropdown list-->
+            <div class="row">
+                <div class="col-lg-5">Select Vendor type</div>
 
-<div class="col-lg-5">
- <div class="input-group-btn">
-	<div class="input-group" style="width:50%">
-        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Choose Vendor <span class="caret"></span></button>
-        <ul class="dropdown-menu" role="menu">
-          <li><a href="#">MassIT</a></li>
-          <li><a href="#">Vendor X</a></li>
-          <li><a href="#">Vendor Y</a></li>
-        </ul>
-      </div><!-- /btn-group -->
-  
-    </div><!-- /input-group -->
+                <div class="col-lg-5">
+                    <div class="input-group-btn">
+                        <div class="input-group" style="width:50%">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Choose Vendor <span class="caret"></span></button>
+                            <ul class="dropdown-menu" role="menu" id="vendor_type">
+                             
+                            </ul>
+                        </div>
+                        <!-- /btn-group -->
 
-</div><!--ending col-lg-3 -->
-</div><!--ending col-lg-2 -->
+                    </div>
+                    <!-- /input-group -->
 
-<br/>
+                </div>
+                <!--ending col-lg-3 -->
+            </div>
+            <!--ending col-lg-2 -->
 
-<div class="row "  style="display:none;" id="service1">
-<div class="col-lg-5">
-Select service type</div>
-<div class="row>
-<div class="col-lg-5">
- <div class="input-group-btn">
-	<div class="input-group" style="width:50%">
-        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Choose Service type <span class="caret"></span></button>
-        <ul class="dropdown-menu" role="menu">
-          <li><a href="#">Internet</a></li>
-          <li><a href="#">PassThrough</a></li>        
-        </ul>
-      </div><!-- /btn-group -->
-  
-    </div><!-- /input-group -->
+            <br/>
 
-</div><!--ending col-lg-3 -->
-</div><!--ending col-lg-2 -->
+            <!--This dropdown list for vendor x and vendor y-->
+            <div class="row " style="display:none;" id="service2">
+                <div class="col-lg-5">
+                    Select service type</div>
 
-</div><!--ending row for service type dropdown list-->
+                <div class="col-lg-5">
+                    <div class="input-group-btn">
+                        <div class="input-group" style="width:50%">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Choose Service type <span class="caret"></span></button>
+                            <ul class="dropdown-menu" role="menu" id="service_type">
 
-<!--This dropdown list for vendor x and vendor y-->
-<div class="row "  style="display:none;" id="service2">
-<div class="col-lg-5">
-Select service type</div>
-<div class="row>
-<div class="col-lg-5">
- <div class="input-group-btn">
-	<div class="input-group" style="width:50%">
-        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Choose Service type <span class="caret"></span></button>
-        <ul class="dropdown-menu" role="menu">
-          <li><a href="#">Internet</a></li>        
-        </ul>
-      </div><!-- /btn-group -->
-  
-    </div><!-- /input-group -->
+                            </ul>
+                        </div>
+                        <!-- /btn-group -->
 
-</div><!--ending col-lg-3 -->
-</div><!--ending col-lg-2 -->
+                    </div>
+                    <!-- /input-group -->
 
-</div><!--ending row for service type dropdown list-->
+                </div>
+                <!--ending col-lg-3 -->
+            </div>
+            <!--ending col-lg-2 -->
 
+            <!--ending row for service type dropdown list-->
 
-<br/>
+            <br/>
 
-<div class="row hidden" id="range1">
-<div class="col-lg-5">
-Select Bandwidth range</div>
-<div class="row">
-<div class="col-lg-5">
- <div class="input-group-btn">
-	<div class="input-group" style="width:50%">
-        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Bandwidth Range<span class="caret"></span></button>
-        <ul class="dropdown-menu" role="menu">
-          <li><a href="#">5</a></li>
-          <li><a href="#">10</a></li> 
-          <li><a href="#">15</a></li>         
-        </ul>
-      </div><!-- /btn-group -->
-  
-    </div><!-- /input-group -->
+            <div class="row " style="display:none;" id="range1">
+                <div class="col-lg-5">
+                    Select Bandwidth range</div>
 
-</div><!--ending col-lg-3 -->
-</div><!--ending col-lg-2 -->
+                <div class="col-lg-5">
+                    <div class="input-group-btn">
+                        <div class="input-group" style="width:50%">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Bandwidth Range<span class="caret"></span></button>
+                            <ul class="dropdown-menu" id="bandwidth_range" role="menu">
 
-</div><!--ending row for service type dropdown list-->
+                            </ul>
+                        </div>
+                        <!-- /btn-group -->
 
-<br/>
+                    </div>
+                    <!-- /input-group -->
 
-<p  data-toggle="collapse" 
-   data-target="#demo">
-  <a>Show More Details</a>
-</p>
+                </div>
+                <!--ending col-lg-3 -->
+            </div>
+            <!--ending col-lg-2 -->
+
+            <!--ending row for service type dropdown list-->
+
+            <br/>
+
+            <!--ending row for service type dropdown list-->
+
+            <p data-toggle="collapse" data-target="#demo" id="toggle" style="display:none">
+                <a>Show More Details</a>
+            </p>
 
 
-<div id="demo" class="collapse out">
-  <div class="row">
-  <br/>
- <div class="col-lg-5">24/7 customer Support</div>
- <div class="col-lg-5">
- <input type="checkbox"  >&nbsp;Availiable
- </div><!--ending for col-lg-4-->
- </div><!--ending for row-->
-<br/>
- <div class="row">
- <div class="col-lg-5">System Connection</div>
- <div class="col-lg-5">
- <input type="checkbox"  checked="checked">&nbsp;Availiable
- </div><!--ending for col-lg-4-->
- </div><!--ending for row-->
-<br/>
- <div class="row">
- <div class="col-lg-5">< 4 hour Response</div>
- <div class="col-lg-5">
- <input type="checkbox" >&nbsp;Availiable
- 
- </div><!--ending for col-lg-4-->
- </div><!--ending for row-->
-<br/>
- <div class="row">
- <div class="col-lg-5">VOIP</div>
- <div class="col-lg-5">
- <input type="checkbox"  checked="checked">&nbsp;Availiable
- </div><!--ending for col-lg-4-->
- </div><!--ending for row-->
-<br/>
- <div class="row">
- <div class="col-lg-5">Filtering</div>
- <div class="col-lg-5">
- <input type="checkbox" >&nbsp;Availiable
- </div><!--ending for col-lg-4-->
- </div><!--ending for row-->
-<br/>
- <div class="row">
- <div class="col-lg-5">Anti-virus</div>
- <div class="col-lg-5">
- <input type="checkbox"  >&nbsp;Availiable
- </div><!--ending for col-lg-4-->
- </div><!--ending for row-->
-<br/>
- <div class="row">
- <div class="col-lg-5">Firewall</div>
- <div class="col-lg-5">
- <input type="checkbox"  checked="checked">&nbsp;Availiable
- </div><!--ending for col-lg-4-->
- </div><!--ending for row-->
-<br/>
- <div class="row">
- <div class="col-lg-5">e-rate</div>
- <div class="col-lg-5">
- <input type="checkbox" >&nbsp;Availiable
- </div><!--ending for col-lg-4-->
- </div><!--ending for row-->
-<br/>
- <div class="row">
- <div class="col-lg-5">WAN</div>
- <div class="col-lg-5">
- <input type="checkbox" checked="checked">&nbsp;Availiable
- </div><!--ending for col-lg-4-->
- </div><!--ending for row-->
-<br/>
- <div class="row">
- <div class="col-lg-5">VPN</div>
- <div class="col-lg-5">
- <input type="checkbox" >&nbsp;Availiable
- </div><!--ending for col-lg-4-->
- </div><!--ending for row-->
-</div><!--ending for coolapse out-->
+            <div id="demo" class="collapse out">
+                <div class="row">
+                    <br/>
+                    <div class="col-lg-5">24/7 customer Support</div>
+                    <div class="col-lg-5">
+                        <input type="checkbox" id="c_support">&nbsp;Availiable
+                    </div>
+                    <!--ending for col-lg-4-->
+                </div>
+                <!--ending for row-->
+                <br/>
+                <div class="row">
+                    <div class="col-lg-5">System Connection</div>
+                    <div class="col-lg-5">
+                        <input type="checkbox" id="sys_connection">&nbsp;Availiable
+                    </div>
+                    <!--ending for col-lg-4-->
+                </div>
+                <!--ending for row-->
+                <br/>
+                <div class="row">
+                    <div class="col-lg-5">
+                        < 4 hour Response</div>
+                            <div class="col-lg-5">
+                                <input type="checkbox" id="hresponse">&nbsp;Availiable
+
+                            </div>
+                            <!--ending for col-lg-4-->
+                    </div>
+                    <!--ending for row-->
+                    <br/>
+                    <div class="row">
+                        <div class="col-lg-5">VOIP</div>
+                        <div class="col-lg-5">
+                            <input type="checkbox" id="voip">&nbsp;Availiable
+                        </div>
+                        <!--ending for col-lg-4-->
+                    </div>
+                    <!--ending for row-->
+                    <br/>
+                    <div class="row">
+                        <div class="col-lg-5">Filtering</div>
+                        <div class="col-lg-5">
+                            <input type="checkbox" id="filtering">&nbsp;Availiable
+                        </div>
+                        <!--ending for col-lg-4-->
+                    </div>
+                    <!--ending for row-->
+                    <br/>
+                    <div class="row">
+                        <div class="col-lg-5">Anti-virus</div>
+                        <div class="col-lg-5">
+                            <input type="checkbox" id="anti_virus">&nbsp;Availiable
+                        </div>
+                        <!--ending for col-lg-4-->
+                    </div>
+                    <!--ending for row-->
+                    <br/>
+                    <div class="row">
+                        <div class="col-lg-5">Firewall</div>
+                        <div class="col-lg-5">
+                            <input type="checkbox" id="fwall">&nbsp;Availiable
+                        </div>
+                        <!--ending for col-lg-4-->
+                    </div>
+                    <!--ending for row-->
+                    <br/>
+                    <div class="row">
+                        <div class="col-lg-5">e-rate</div>
+                        <div class="col-lg-5">
+                            <input type="checkbox" id="e_rate">&nbsp;Availiable
+                        </div>
+                        <!--ending for col-lg-4-->
+                    </div>
+                    <!--ending for row-->
+                    <br/>
+                    <div class="row">
+                        <div class="col-lg-5">WAN</div>
+                        <div class="col-lg-5">
+                            <input type="checkbox" id="WAN">&nbsp;Availiable
+                        </div>
+                        <!--ending for col-lg-4-->
+                    </div>
+                    <!--ending for row-->
+                    <br/>
+                    <div class="row">
+                        <div class="col-lg-5">VPN</div>
+                        <div class="col-lg-5">
+                            <input type="checkbox" id="vpn">&nbsp;Availiable
+                        </div>
+                        <!--ending for col-lg-4-->
+                    </div>
+                    <!--ending for row-->
+                </div>
+                <!--ending for collapse out-->
+
+                <table class="table table-striped" style="display:none">
+                    <thead>
+                        <tr>
+                            <th>Vendor</th>
+							<th>Service</th>
+							<th>Speed</th>
+                            <th>Price</th>
+
+                        </tr>
+                    </thead>
+                    <tbody id="comp1">
 
 
- <table class="table table-striped">
-        <thead>
-            <tr>
-                <th>Row</th>
-                <th>ServiceType</th>
-                <th>Price</th>
-               
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>John</td>
-                <td>Carter</td>
-               
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Peter</td>
-                <td>Parker</td>
-               
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>John</td>
-                <td>Rambo</td>
-              
-            </tr>
-        </tbody>
-    </table>
+
+                    </tbody>
+                </table>
 
 
-</div><!--left pane ending-->
-<!--Adding Service Type-->
-<br/>
- <div class="col-lg-7">Replace MAP</div>
-</div><!-- col-lg-7 ending-->
-<button id="action-button" >Click me to load info!</button>
-<p></p>
-<script>
- $('#action-button').click(function() {
-	alert("dd");
-	var aa=jsonstr;
-	debugger;
-   });
-   
-$('.dropdown-menu li a').click(function() {
-var aa=jsonstr;
-debugger;
- var stext=$(this).text();
- for (var i=0;i<aa.length;i++)
- {
- if(aa[i].vendor==stext)
- {
- alert("aa");
- if(stext=="MassIT")
- {
- $('#service1').show();
- }
- else
- {
- $('#service2').show();
- }
-//var s=aa[i].service;
- // $( "p" ).text( s );
- }
- }
-});
-   </script>
+            </div>
+            <!--left pane ending-->
+            <!--Adding Service Type-->
+            <br/>
+            <div class="col-lg-7">Replace MAP</div>
+        </div>
+        <!-- col-lg-7 ending-->
+        <button type="button" value="submit" onclick="result()" style="display:none;margin-left:30px" id="res">Show the Comparison result</button>
+
+        <script src="cost.js">
+		//document loading function	
+        </script>
 </body>
 
 </html>
