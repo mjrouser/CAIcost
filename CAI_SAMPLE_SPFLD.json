@@ -1,0 +1,674 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "vhxv-aduc",
+      "name" : "CAI_SPRINGFIELD",
+      "averageRating" : 0,
+      "createdAt" : 1427477439,
+      "displayType" : "geoRows",
+      "downloadCount" : 0,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 10751599,
+      "publicationAppendEnabled" : false,
+      "publicationGroup" : 2560036,
+      "publicationStage" : "published",
+      "tableId" : 2560036,
+      "totalTimesRated" : 0,
+      "viewCount" : 0,
+      "viewLastModified" : 1427477440,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : 196860296,
+        "name" : "CAI_ID",
+        "dataTypeName" : "text",
+        "fieldName" : "cai_id",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 27161805,
+        "format" : {
+        }
+      }, {
+        "id" : 196860295,
+        "name" : "OBJECTID",
+        "dataTypeName" : "number",
+        "fieldName" : "objectid",
+        "position" : 1,
+        "renderTypeName" : "number",
+        "tableColumnId" : 27161804,
+        "format" : {
+        }
+      }, {
+        "id" : 196860297,
+        "name" : "LOC_ID",
+        "dataTypeName" : "text",
+        "fieldName" : "loc_id",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 27161806,
+        "format" : {
+        }
+      }, {
+        "id" : 196860298,
+        "name" : "CAINAME",
+        "dataTypeName" : "text",
+        "fieldName" : "cainame",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 27161807,
+        "format" : {
+        }
+      }, {
+        "id" : 196860299,
+        "name" : "INCINBUILD",
+        "dataTypeName" : "text",
+        "fieldName" : "incinbuild",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 27161808,
+        "format" : {
+        }
+      }, {
+        "id" : 196860300,
+        "name" : "BLDGNBR",
+        "dataTypeName" : "text",
+        "fieldName" : "bldgnbr",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 27161809,
+        "format" : {
+        }
+      }, {
+        "id" : 196860301,
+        "name" : "PREDIR",
+        "dataTypeName" : "text",
+        "fieldName" : "predir",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 27161810,
+        "format" : {
+        }
+      }, {
+        "id" : 196860302,
+        "name" : "STREETNAME",
+        "dataTypeName" : "text",
+        "fieldName" : "streetname",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 27161811,
+        "format" : {
+        }
+      }, {
+        "id" : 196860303,
+        "name" : "SUFFDIR",
+        "dataTypeName" : "text",
+        "fieldName" : "suffdir",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 27161812,
+        "format" : {
+        }
+      }, {
+        "id" : 196860304,
+        "name" : "STREETTYPE",
+        "dataTypeName" : "text",
+        "fieldName" : "streettype",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 27161813,
+        "format" : {
+        }
+      }, {
+        "id" : 196860305,
+        "name" : "STREETADD",
+        "dataTypeName" : "text",
+        "fieldName" : "streetadd",
+        "position" : 10,
+        "renderTypeName" : "text",
+        "tableColumnId" : 27161814,
+        "format" : {
+        }
+      }, {
+        "id" : 196860306,
+        "name" : "STREETADD2",
+        "dataTypeName" : "text",
+        "fieldName" : "streetadd2",
+        "position" : 11,
+        "renderTypeName" : "text",
+        "tableColumnId" : 27161815,
+        "format" : {
+        }
+      }, {
+        "id" : 196860307,
+        "name" : "CITY",
+        "dataTypeName" : "text",
+        "fieldName" : "city",
+        "position" : 12,
+        "renderTypeName" : "text",
+        "tableColumnId" : 27161816,
+        "format" : {
+        }
+      }, {
+        "id" : 196860308,
+        "name" : "STATECODE",
+        "dataTypeName" : "text",
+        "fieldName" : "statecode",
+        "position" : 13,
+        "renderTypeName" : "text",
+        "tableColumnId" : 27161817,
+        "format" : {
+        }
+      }, {
+        "id" : 196860309,
+        "name" : "ZIP5",
+        "dataTypeName" : "text",
+        "fieldName" : "zip5",
+        "position" : 14,
+        "renderTypeName" : "text",
+        "tableColumnId" : 27161818,
+        "format" : {
+        }
+      }, {
+        "id" : 196860310,
+        "name" : "ZIP4",
+        "dataTypeName" : "text",
+        "fieldName" : "zip4",
+        "position" : 15,
+        "renderTypeName" : "text",
+        "tableColumnId" : 27161819,
+        "format" : {
+        }
+      }, {
+        "id" : 196860311,
+        "name" : "SIMPLIFMCD",
+        "dataTypeName" : "text",
+        "fieldName" : "simplifmcd",
+        "position" : 16,
+        "renderTypeName" : "text",
+        "tableColumnId" : 27161820,
+        "format" : {
+        }
+      }, {
+        "id" : 196860312,
+        "name" : "MPLAT",
+        "dataTypeName" : "number",
+        "fieldName" : "mplat",
+        "position" : 17,
+        "renderTypeName" : "number",
+        "tableColumnId" : 27161821,
+        "format" : {
+        }
+      }, {
+        "id" : 196860313,
+        "name" : "MPLONG",
+        "dataTypeName" : "number",
+        "fieldName" : "mplong",
+        "position" : 18,
+        "renderTypeName" : "number",
+        "tableColumnId" : 27161822,
+        "format" : {
+        }
+      }, {
+        "id" : 196860314,
+        "name" : "NOFA_CAT",
+        "dataTypeName" : "text",
+        "fieldName" : "nofa_cat",
+        "position" : 19,
+        "renderTypeName" : "text",
+        "tableColumnId" : 27161823,
+        "format" : {
+        }
+      }, {
+        "id" : 196860315,
+        "name" : "CAI_TYPE",
+        "dataTypeName" : "text",
+        "fieldName" : "cai_type",
+        "position" : 20,
+        "renderTypeName" : "text",
+        "tableColumnId" : 27161824,
+        "format" : {
+        }
+      }, {
+        "id" : 196860316,
+        "name" : "OWNTYPE",
+        "dataTypeName" : "text",
+        "fieldName" : "owntype",
+        "position" : 21,
+        "renderTypeName" : "text",
+        "tableColumnId" : 27161825,
+        "format" : {
+        }
+      }, {
+        "id" : 196860317,
+        "name" : "OTHERORG",
+        "dataTypeName" : "text",
+        "fieldName" : "otherorg",
+        "position" : 22,
+        "renderTypeName" : "text",
+        "tableColumnId" : 27161826,
+        "format" : {
+        }
+      }, {
+        "id" : 196860318,
+        "name" : "POI",
+        "dataTypeName" : "text",
+        "fieldName" : "poi",
+        "position" : 23,
+        "renderTypeName" : "text",
+        "tableColumnId" : 27161827,
+        "format" : {
+        }
+      }, {
+        "id" : 196860319,
+        "name" : "CLLI",
+        "dataTypeName" : "text",
+        "fieldName" : "clli",
+        "position" : 24,
+        "renderTypeName" : "text",
+        "tableColumnId" : 27161828,
+        "format" : {
+        }
+      }, {
+        "id" : 196860320,
+        "name" : "STATUS",
+        "dataTypeName" : "text",
+        "fieldName" : "status",
+        "position" : 25,
+        "renderTypeName" : "text",
+        "tableColumnId" : 27161829,
+        "format" : {
+        }
+      }, {
+        "id" : 196860321,
+        "name" : "OWNER",
+        "dataTypeName" : "text",
+        "fieldName" : "owner",
+        "position" : 26,
+        "renderTypeName" : "text",
+        "tableColumnId" : 27161830,
+        "format" : {
+        }
+      } ],
+      "owner" : {
+        "id" : "4stn-eh83",
+        "displayName" : "Mariko Davidson",
+        "emailUnsubscribed" : false,
+        "profileImageUrlLarge" : "/images/profile/0497/3283/open-data-graphic_large.jpg",
+        "profileImageUrlMedium" : "/images/profile/0497/3283/open-data-graphic_thumb.jpg",
+        "profileImageUrlSmall" : "/images/profile/0497/3283/open-data-graphic_tiny.jpg",
+        "profileLastModified" : 1410984105,
+        "roleName" : "administrator",
+        "screenName" : "Mariko Davidson",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "query" : {
+      },
+      "rights" : [ "read", "write", "add", "delete", "grant", "add_column", "remove_column", "update_column", "update_view", "delete_view" ],
+      "tableAuthor" : {
+        "id" : "4stn-eh83",
+        "displayName" : "Mariko Davidson",
+        "emailUnsubscribed" : false,
+        "profileImageUrlLarge" : "/images/profile/0497/3283/open-data-graphic_large.jpg",
+        "profileImageUrlMedium" : "/images/profile/0497/3283/open-data-graphic_thumb.jpg",
+        "profileImageUrlSmall" : "/images/profile/0497/3283/open-data-graphic_tiny.jpg",
+        "profileLastModified" : 1410984105,
+        "roleName" : "administrator",
+        "screenName" : "Mariko Davidson",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ 1, "geo_rujc-agwg-1.1", null, null, null, null, null, null, "565", "61", "852", "Baystate Medical Center", "Y", "140", "", "High", "", "Street", "140 High Street", "2nd Floor, P.O. Box 50054", "Springfield", "", "01105", "", "Springfield", "42.10539218000000261099557974375784397125244140625", "-72.5796436800000037692370824515819549560546875", "3", "", "P", "", "", "SPFDMADINAE", "R", "" ]
+, [ 2, "geo_rujc-agwg-1.2", null, null, null, null, null, null, "752", "1", "946", "Baystate Medical Center - ER", "Y", "759", "", "Chestnut", "", "Street", "759 Chestnut Street", "", "Springfield", "", "01199", "", "Springfield", "42.1197752300000018976788851432502269744873046875", "-72.6034794499999946992829791270196437835693359375", "3", "Hospital", "P", "", "", "SPFDMADJNAE", "G", "" ]
+, [ 3, "geo_rujc-agwg-1.3", null, null, null, null, null, null, "2399", "123", "1957", "Arthur T Talmadge", "N", "1395", "", "Allen", "", "Street", "1395 Allen Street", "", "Springfield", "", "01118", "", "Springfield", "42.09548859000000220476067624986171722412109375", "-72.5142391600000024709515855647623538970947265625", "1", "K12", "M", "", "", "", "", "" ]
+, [ 4, "geo_rujc-agwg-1.4", null, null, null, null, null, null, "572", "133", "899", "Boland School", "X", "426", "", "Armory", "", "Street", "426 Armory Street", "", "Springfield", "", "01104", "", "Springfield", "42.11940002000000049520167522132396697998046875", "-72.587100149999997711347532458603382110595703125", "1", "K12", "M", "", "", "SPFDMATBNAA", "P", "" ]
+, [ 5, "geo_rujc-agwg-1.5", null, null, null, null, null, null, "2416", "138", "1974", "Brightwood Elementary School", "N", "471", "", "Plainfield", "", "Street", "471 Plainfield Street", "", "Springfield", "", "01107", "", "Springfield", "42.11714815999999927953467704355716705322265625", "-72.6124952699999965943788993172347545623779296875", "1", "K12", "M", "", "", "", "", "" ]
+, [ 6, "geo_rujc-agwg-1.6", null, null, null, null, null, null, "633", "139", "887", "Brightwood Branch Library", "N", "359", "", "Plainfield", "", "Street", "359 Plainfield Street", "", "Springfield", "", "", "", "Springfield", "42.11897076000000339490725309588015079498291015625", "-72.6145588499999945497620501555502414703369140625", "2", "Library", "M", "", "", "", "", "" ]
+, [ 7, "geo_rujc-agwg-1.7", null, null, null, null, null, null, "2363", "140", "1930", "Brightwood Health Center", "N", "380", "", "Plainfield", "", "Street", "380 Plainfield Street", "", "Springfield", "", "01107", "", "Springfield", "42.1172579899999988128911354579031467437744140625", "-72.614422910000001820662873797118663787841796875", "3", "", "P", "", "", "", "", "" ]
+, [ 8, "geo_rujc-agwg-1.8", null, null, null, null, null, null, "1926", "143", "1560", "East Forest Park Branch Library", "N", "122", "", "Island Pond", "", "Road", "122 Island Pond Road", "", "Springfield", "", "01118", "", "Springfield", "42.0968450200000035010816645808517932891845703125", "-72.5519461500000062414983403868973255157470703125", "2", "Library", "M", "", "", "", "", "" ]
+, [ 9, "geo_rujc-agwg-1.9", null, null, null, null, null, null, "2414", "149", "1972", "Elias Brookings", "N", "367", "", "Hancock", "", "Street", "367 Hancock Street", "", "Springfield", "", "01105", "", "Springfield", "42.09887694999999752099029137752950191497802734375", "-72.5662679400000030227602110244333744049072265625", "1", "K12", "M", "", "", "", "", "" ]
+, [ 10, "geo_rujc-agwg-1.10", null, null, null, null, null, null, "646", "80", "866", "East Springfield Branch Library", "Y", "21", "", "Osborne", "", "Terrace", "21 Osborne Terrace", "", "Springfield", "", "", "", "Springfield", "42.14157669000000083769919001497328281402587890625", "-72.5582929600000028358408599160611629486083984375", "2", "Library", "M", "", "", "SPFDMA79NAA", "G", "" ]
+, [ 11, "geo_rujc-agwg-1.11", null, null, null, null, null, null, "2387", "91", "1927", "Baystate Medical Center Midwifery Education Prog", "N", "360", "", "Birnie", "", "Avenue", "360 Birnie Avenue", "", "Springfield", "", "01199", "", "Springfield", "42.12345101999999741337887826375663280487060546875", "-72.61133614999999963401933200657367706298828125", "5B", "", "M", "", "", "", "", "" ]
+, [ 12, "geo_rujc-agwg-1.12", null, null, null, null, null, null, "577", "114", "929", "Alfred G Zanetti", "N", "59", "", "Howard", "", "Street", "59 Howard Street", "", "Springfield", "", "01105", "", "Springfield", "42.09807736999999860927346162497997283935546875", "-72.586675299999996013866621069610118865966796875", "1", "K12", "M", "", "", "SPFDMA46NAA", "", "" ]
+, [ 13, "geo_rujc-agwg-1.13", null, null, null, null, null, null, "568", "115", "875", "Alice B Beal Elem", "X", "285", "", "Tiffany", "", "Street", "285 Tiffany Street", "", "Springfield", "", "01108", "", "Springfield", "42.07480812000000014450051821768283843994140625", "-72.5471402499999982182998792268335819244384765625", "1", "Elementary School", "M", "", "", "SPFDMA26NAA", "P", "" ]
+, [ 14, "geo_rujc-agwg-1.14", null, null, null, null, null, null, "2383", "117", "1904", "American International College", "N", "1000", "", "State", "", "Street", "1000 State Street", "", "Springfield", "", "01109", "", "Springfield", "42.11212440999999984114765538834035396575927734375", "-72.559468960000003789900802075862884521484375", "5B", "College", "M", "", "", "", "", "" ]
+, [ 15, "geo_rujc-agwg-1.15", null, null, null, null, null, null, "769", "258", "836", "Caring Health Center, Inc.", "N", "1040", "", "Main", "", "Street", "1040 Main Street", "Suite 205", "Springfield", "", "01103", "", "Springfield", "42.09979068999999896050212555564939975738525390625", "-72.584717740000002095257514156401157379150390625", "3", "Federally Qualified Health Ctr", "P", "", "", "SPFDMA78NAA", "", "" ]
+, [ 16, "geo_rujc-agwg-1.16", null, null, null, null, null, null, "2408", "259", "1966", "Cathedral High", "N", "260", "", "Surrey", "", "Road", "260 Surrey Road", "", "Springfield", "", "01118", "", "Springfield", "42.099934910000001764274202287197113037109375", "-72.540819389999995792095432989299297332763671875", "1", "High School", "M", "", "", "", "", "" ]
+, [ 17, "geo_rujc-agwg-1.17", null, null, null, null, null, null, "2413", "266", "1971", "Chestnut Street Middle", "N", "355", "", "Plainfield", "", "Street", "355 Plainfield Street", "", "Springfield", "", "01107", "", "Springfield", "42.11627175999999650457539246417582035064697265625", "-72.6135825500000038346115616150200366973876953125", "1", "Middle School", "M", "", "", "", "", "" ]
+, [ 18, "geo_rujc-agwg-1.18", null, null, null, null, null, null, "1928", "459", "1562", "Mason Square Branch Library", "Y", "765", "", "State", "", "Street", "765 State Street", "", "Springfield", "", "01109", "", "Springfield", "42.11034276000000176054527400992810726165771484375", "-72.566324670000000196523615159094333648681640625", "2", "Library", "M", "", "", "SPFDMAKKNAA", "G", "" ]
+, [ 19, "geo_rujc-agwg-1.19", null, null, null, null, null, null, "799", "234", "958", "Health Services for the Homeless", "Y", "95", "", "State", "", "Street", "95 State Street", "Suite 201", "Springfield", "", "01103", "", "Springfield", "42.10050503000000077236109063960611820220947265625", "-72.5873331300000046439890866167843341827392578125", "3", "CHC", "P", "", "", "SPFDMADDNAA", "R", "" ]
+, [ 20, "geo_rujc-agwg-1.20", null, null, null, null, null, null, "1911", "285", "1550", "Daniel B. Brunton Elementary School", "X", "1801", "", "Parker", "", "Street", "1801 Parker Street", "", "Springfield", "", "01128", "", "Springfield", "42.09739402000000296766302199102938175201416015625", "-72.4922991499999938014298095367848873138427734375", "1", "Elementary School", "M", "", "", "SPFDMAZKNAA", "P", "" ]
+, [ 21, "geo_rujc-agwg-1.21", null, null, null, null, null, null, "2404", "288", "1962", "Dryden Memorial", "N", "190", "", "Surrey", "", "Road", "190 Surrey Road", "", "Springfield", "", "01118", "", "Springfield", "42.09916761000000207104676519520580768585205078125", "-72.5437016999999997324266587384045124053955078125", "1", "K12", "M", "", "", "", "", "" ]
+, [ 22, "geo_rujc-agwg-1.22", null, null, null, null, null, null, "571", "301", "898", "High School of Commerce", "X", "415", "", "State", "", "Street", "415 State Street", "", "Springfield", "", "01105", "", "Springfield", "42.10539218000000261099557974375784397125244140625", "-72.5796436800000037692370824515819549560546875", "1", "High School", "M", "", "", "SPFDMAWQNAA", "P", "" ]
+, [ 23, "geo_rujc-agwg-1.23", null, null, null, null, null, null, "657", "317", "895", "Forest Park Branch Library", "Y", "380", "", "Belmont", "", "Avenue", "380 Belmont Avenue", "", "Springfield", "", "", "", "Springfield", "42.0868688999999989164280123077332973480224609375", "-72.56336898000000701358658261597156524658203125", "2", "Library", "M", "", "", "SPFDMA19NAA", "G", "" ]
+, [ 24, "geo_rujc-agwg-1.24", null, null, null, null, null, null, "1043", "326", "834", "FutureWorks Career Center", "Y", "1", "", "Federal", "", "Street", "1 Federal Street", "Building 103-3", "Springfield", "", "01105", "", "Springfield", "42.10902955000000247309799306094646453857421875", "-72.5758028700000039634687709622085094451904296875", "6", "Department of Workforce Development", "S", "", "Y x", "SPFDMAATNAA", "R", "ITD" ]
+, [ 25, "geo_rujc-agwg-1.25", null, null, null, null, null, null, "685", "440", "944", "Liberty Branch Library", "Y", "773", "", "Liberty", "", "Street", "773 Liberty Street", "", "Springfield", "", "", "", "Springfield", "42.1240657000000027210262487642467021942138671875", "-72.5840894800000029363218345679342746734619140625", "2", "Library", "M", "", "", "SPFDMAHRNAA", "G", "" ]
+, [ 26, "geo_rujc-agwg-1.26", null, null, null, null, null, null, "678", "385", "904", "Indian Orchard Branch Library", "Y", "44", "", "Oak", "", "Street", "44 Oak Street", "", "Springfield", "", "", "", "Springfield", "42.15898057999999792855305713601410388946533203125", "-72.5036435399999987794217304326593875885009765625", "2", "Library", "M", "", "", "INORMAAENAA", "G", "" ]
+, [ 27, "geo_rujc-agwg-1.27", null, null, null, null, null, null, "2396", "411", "1954", "John J Duggan Middle", "Y", "1015", "", "Wilbraham", "", "Road", "1015 Wilbraham Road", "", "Springfield", "", "01109", "", "Springfield", "42.113931309999998120474629104137420654296875", "-72.52703406000000541098415851593017578125", "1", "Middle School", "M", "", "", "SPFDMAWWNAA", "R", "K12" ]
+, [ 28, "geo_rujc-agwg-1.28", null, null, null, null, null, null, "573", "791", "905", "Sumner Avenue", "X", "45", "", "Sumner", "", "Avenue", "45 Sumner Avenue", "", "Springfield", "", "01108", "", "Springfield", "42.08209991999999743939042673446238040924072265625", "-72.5748001500000015084879123605787754058837890625", "1", "K12", "M", "", "", "SPFDMAXBNAA", "P", "" ]
+, [ 29, "geo_rujc-agwg-1.29", null, null, null, null, null, null, "864", "792", "896", "Sumner Avenue School-based Health Center", "N", "45", "", "Sumner", "", "Avenue", "45 Sumner Avenue", "", "Springfield", "", "01108", "", "Springfield", "42.08252678000000202018782147206366062164306640625", "-72.5745835400000061099490267224609851837158203125", "3", "CHC", "P", "", "", "SPFDMAGYNAA", "", "" ]
+, [ 30, "geo_rujc-agwg-1.30", null, null, null, null, null, null, "320", "798", "934", "Springfield Fire Department Headquarters", "X", "605", "", "Worthington", "", "Street", "605 Worthington Street", "", "Springfield", "", "01105", "", "Springfield", "42.1081137999999981502696755342185497283935546875", "-72.587109389999994846220943145453929901123046875", "4", "Fire Station", "M", "", "", "SPFDMAQANAA", "P", "" ]
+, [ 31, "geo_rujc-agwg-1.31", null, null, null, null, null, null, "2422", "799", "1979", "STEM Middle Academy", "N", "60", "", "Alton", "", "Street", "60 Alton Street", "", "Springfield", "", "01109", "", "Springfield", "42.11933067999999735775418230332434177398681640625", "-72.5512406200000015132900443859398365020751953125", "1", "Middle School", "M", "", "", "", "", "" ]
+, [ 32, "geo_rujc-agwg-1.32", null, null, null, null, null, null, "2403", "800", "1961", "Sabis International Charter School", "N", "160", "", "Joan", "", "Street", "160 Joan Street", "", "Springfield", "", "01129", "", "Springfield", "42.1254567200000025195549824275076389312744140625", "-72.4838126899999934948937152512371540069580078125", "1", "K12", "M", "", "", "", "", "" ]
+, [ 33, "geo_rujc-agwg-1.33", null, null, null, null, null, null, "792", "620", "918", "Forest Park", "N", "532", "", "Sumner", "", "Avenue", "532 Sumner Avenue", "", "Springfield", "", "01108", "", "Springfield", "42.086605230000003530221874825656414031982421875", "-72.5569424300000065386484493501484394073486328125", "3", "CHC", "P", "", "", "", "", "" ]
+, [ 34, "geo_rujc-agwg-1.34", null, null, null, null, null, null, "574", "621", "907", "Forest Park Middle", "X", "46", "", "Oakland", "", "Street", "46 Oakland Street", "", "Springfield", "", "01108", "", "Springfield", "42.08641041999999998779458110220730304718017578125", "-72.563811450000002878368832170963287353515625", "1", "Middle School", "M", "", "", "SPFDMAWJNAA", "P", "" ]
+, [ 35, "geo_rujc-agwg-1.35", null, null, null, null, null, null, "2424", "624", "1981", "Frank H Freedman", "N", "90", "", "Cherokee", "", "Drive", "90 Cherokee Drive", "", "Springfield", "", "01109", "", "Springfield", "42.109018759999997882914613001048564910888671875", "-72.5248544199999969350756146013736724853515625", "1", "K12", "M", "", "", "", "", "" ]
+, [ 36, "geo_rujc-agwg-1.36", null, null, null, null, null, null, "2421", "626", "1978", "Frederick Harris", "N", "58", "", "Hartford", "", "Terrace", "58 Hartford Terrace", "", "Springfield", "", "01118", "", "Springfield", "42.0927791200000029903094400651752948760986328125", "-72.535480750000004945832188241183757781982421875", "1", "K12", "M", "", "", "", "", "" ]
+, [ 37, "geo_rujc-agwg-1.37", null, null, null, null, null, null, "567", "631", "864", "Gerena", "X", "200", "", "Birnie", "", "Avenue", "200 Birnie Avenue", "", "Springfield", "", "01107", "", "Springfield", "42.11660001999999991539880284108221530914306640625", "-72.6101001499999938459950499236583709716796875", "1", "K12", "M", "", "", "SPFDMAZMNAA", "P", "" ]
+, [ 38, "geo_rujc-agwg-1.38", null, null, null, null, null, null, "2418", "633", "1976", "Glenwood", "N", "50", "", "Morrison", "", "Terrace", "50 Morrison Terrace", "", "Springfield", "", "01104", "", "Springfield", "42.1322294499999969730197335593402385711669921875", "-72.5906038499999937130269245244562625885009765625", "1", "K12", "M", "", "", "", "", "" ]
+, [ 39, "geo_rujc-agwg-1.39", null, null, null, null, null, null, "2398", "634", "1956", "Glickman Elementary", "N", "120", "", "Ashland", "", "Avenue", "120 Ashland Avenue", "", "Springfield", "", "01119", "", "Springfield", "42.1142525599999970609133015386760234832763671875", "-72.511101330000002462838892824947834014892578125", "1", "Elementary School", "M", "", "", "", "", "" ]
+, [ 40, "geo_rujc-agwg-1.40", null, null, null, null, null, null, "319", "570", "932", "Springfield State Police Department, Station #B-3", "Y", "600", "", "Liberty", "", "Street", "600 Liberty Street", "", "Springfield", "", "01104", "", "Springfield", "42.11995114999999856308932066895067691802978515625", "-72.5847928200000040988015825860202312469482421875", "4", "Law Enforcement", "S", "", "", "SPFDMARBNAA", "G", "EOPSS" ]
+, [ 41, "geo_rujc-agwg-1.41", null, null, null, null, null, null, "311", "574", "862", "Springfield State Police Crime Scene Services Section (Crimelab)", "Y", "190", "", "Carando", "", "Drive", "190 Carando Drive", "Suite 1", "Springfield", "", "01104", "", "Springfield", "42.14673172999999906096491031348705291748046875", "-72.5311260499999974626916809938848018646240234375", "4", "Law Enforcement", "S", "", "", "SPFDMARENAA", "G", "EOPSS" ]
+, [ 42, "geo_rujc-agwg-1.42", null, null, null, null, null, null, "2405", "606", "1963", "Hiram L Dorman", "N", "20", "", "Lydia", "", "Street", "20 Lydia Street", "", "Springfield", "", "01109", "", "Springfield", "42.128075760000001537264324724674224853515625", "-72.5392958099999987098271958529949188232421875", "1", "K12", "M", "", "", "", "", "" ]
+, [ 43, "geo_rujc-agwg-1.43", null, null, null, null, null, null, "2402", "610", "1960", "Holy Cross", "N", "153", "", "Eddywood", "", "Street", "153 Eddywood Street", "", "Springfield", "", "01118", "", "Springfield", "42.094386299999996481346897780895233154296875", "-72.5392574499999938097971607930958271026611328125", "1", "K12", "M", "", "", "", "", "" ]
+, [ 44, "geo_rujc-agwg-1.44", null, null, null, null, null, null, "570", "611", "891", "Holy Name", "N", "37", "", "Alderman", "", "Street", "37 Alderman Street", "", "Springfield", "", "01108", "", "Springfield", "42.08867095000000091431502369232475757598876953125", "-72.558836420000005773545126430690288543701171875", "1", "K12", "M", "", "", "", "", "" ]
+, [ 45, "geo_rujc-agwg-1.45", null, null, null, null, null, null, "2415", "654", "1973", "Homer Street", "N", "43", "", "Homer", "", "Street", "43 Homer Street", "", "Springfield", "", "01109", "", "Springfield", "42.1127956199999999853389454074203968048095703125", "-72.5554205300000063516563386656343936920166015625", "1", "K12", "M", "", "", "", "", "" ]
+, [ 46, "geo_rujc-agwg-1.46", null, null, null, null, null, null, "2427", "655", "1983", "Indian Orchard Elementary School", "N", "95", "", "Milton", "", "Street", "95 Milton Street", "", "Indian Orchard", "", "01151", "", "Springfield", "42.15492694000000284404450212605297565460205078125", "-72.4940561199999962127549224533140659332275390625", "1", "Elementary School", "M", "", "", "", "", "" ]
+, [ 47, "geo_rujc-agwg-1.47", null, null, null, null, null, null, "2406", "658", "1964", "Milton Bradley School", "N", "22", "", "Mulberry", "", "Street", "22 Mulberry Street", "", "Springfield", "", "01105", "", "Springfield", "42.10130862999999834528352948836982250213623046875", "-72.580289050000004635876393876969814300537109375", "1", "K12", "M", "", "", "", "", "" ]
+, [ 48, "geo_rujc-agwg-1.48", null, null, null, null, null, null, "569", "670", "890", "Mount Carmel", "N", "36", "", "Margaret", "", "Street", "36 Margaret Street", "", "Springfield", "", "01105", "", "Springfield", "42.096817270000002508822944946587085723876953125", "-72.5836993500000033918695407919585704803466796875", "1", "K12", "M", "", "", "", "", "" ]
+, [ 49, "geo_rujc-agwg-1.49", null, null, null, null, null, null, "581", "775", "956", "Robert M. Hughes Academy Charter Public School", "X", "91", "", "School", "", "Street", "91 School Street", "", "Springfield", "", "01105", "", "Springfield", "42.10280001999999655026840628124773502349853515625", "-72.57880015000000639702193439006805419921875", "1", "K12", "M", "", "", "", "P", "" ]
+, [ 50, "geo_rujc-agwg-1.50", null, null, null, null, null, null, "727", "841", "868", "Springfield City Library", "Y", "220", "", "State", "", "Street", "220 State Street", "", "Springfield", "", "01103", "", "Springfield", "42.1035701400000021976666175760328769683837890625", "-72.58446039000000382657162845134735107421875", "2", "Library", "M", "", "", "SPFDMALMNAA", "G", "" ]
+, [ 51, "geo_rujc-agwg-1.51", null, null, null, null, null, null, "310", "842", "856", "Springfield Fire Department", "Y", "15", "", "Odessa", "", "Street", "15 Odessa Street", "", "Springfield", "", "01151", "", "Springfield", "42.147465449999998554631019942462444305419921875", "-72.503052220000000716026988811790943145751953125", "4", "Fire Station", "M", "", "", "SPFDMA98NAA", "G", "" ]
+, [ 52, "geo_rujc-agwg-1.52", null, null, null, null, null, null, "308", "843", "847", "Springfield Police Department Headquarters", "Y", "130", "", "Pearl", "", "Street", "130 Pearl Street", "", "Springfield", "", "01105", "", "Springfield", "42.10836814000000316582372761331498622894287109375", "-72.58545820000000503569026477634906768798828125", "4", "Law Enforcement", "M", "", "", "SPFDMAPJNAC", "G", "EOPSS" ]
+, [ 53, "geo_rujc-agwg-1.53", null, null, null, null, null, null, "10", "844", "964", "Springfield Technical Community College", "Y", "1", "", "Armory", "", "Square", "1 Armory Square", "Suite 1", "Springfield", "", "01105", "", "Springfield", "42.108553110000002561719156801700592041015625", "-72.581242169999995894613675773143768310546875", "5A", "Community College", "S", "", "STCC", "SPFDMABZNAA", "G", "College" ]
+, [ 54, "geo_rujc-agwg-1.54", null, null, null, null, null, null, "2407", "803", "1965", "Samuel Bowles", "N", "24", "", "Bowles", "", "Parkway", "24 Bowles Parkway", "", "Springfield", "", "01104", "", "Springfield", "42.1437608199999971247962093912065029144287109375", "-72.5629600799999963101072353310883045196533203125", "1", "K12", "M", "", "", "", "", "" ]
+, [ 55, "geo_rujc-agwg-1.55", null, null, null, null, null, null, "2420", "737", "1932", "Rebecca M Johnson", "N", "55", "", "Catherine", "", "Street", "55 Catherine Street", "", "Springfield", "", "01109", "", "Springfield", "42.11293722999999999956344254314899444580078125", "-72.56488785999999890918843448162078857421875", "1", "K12", "M", "", "", "", "", "" ]
+, [ 56, "geo_rujc-agwg-1.56", null, null, null, null, null, null, "2476", "751", "2026", "New Leadership Charter School", "N", "180", "", "Ashland", "", "Avenue", "180 Ashland Avenue", "", "West Springfield", "", "01119", "", "West Springfield", "42.11057258999999675097569706849753856658935546875", "-72.5105112100000042119063436985015869140625", "1", "K12", "M", "", "", "", "", "" ]
+, [ 57, "geo_rujc-agwg-1.57", null, null, null, null, null, null, "482", "757", "906", "Orchard Children's Corner", "N", "451", "", "Main", "", "Street", "451 Main Street", "", "Indian Orchard", "", "01151", "", "Springfield", "42.1568105500000029906004783697426319122314453125", "-72.4906778800000068940789788030087947845458984375", "1", "K12", "M", "", "", "", "", "" ]
+, [ 58, "geo_rujc-agwg-1.58", null, null, null, null, null, null, "564", "677", "851", "John F Kennedy Middle", "X", "1385", "", "Berkshire", "", "Avenue", "1385 Berkshire Avenue", "", "Springfield", "", "01151", "", "Springfield", "42.1545000200000004042522050440311431884765625", "-72.510800149999994346217135898768901824951171875", "1", "Middle School", "M", "", "", "SPFDMAWYNAA", "P", "" ]
+, [ 59, "geo_rujc-agwg-1.59", null, null, null, null, null, null, "2410", "685", "1968", "Kensington Avenue", "N", "31", "", "Kensington", "", "Avenue", "31 Kensington Avenue", "", "Springfield", "", "01108", "", "Springfield", "42.09111398999999664738425053656101226806640625", "-72.5615710999999947716787573881447315216064453125", "1", "K12", "M", "", "", "", "", "" ]
+, [ 60, "geo_rujc-agwg-1.60", null, null, null, null, null, null, "582", "693", "961", "Liberty", "X", "962", "", "Carew", "", "Street", "962 Carew Street", "", "Springfield", "", "01104", "", "Springfield", "42.12960011999999920817572274245321750640869140625", "-72.5800001500000036003257264383137226104736328125", "1", "K12", "M", "", "", "SPFDMA38NAA", "P", "" ]
+, [ 61, "geo_rujc-agwg-1.61", null, null, null, null, null, null, "579", "695", "943", "Lincoln", "X", "732", "", "Chestnut", "", "Street", "732 Chestnut Street", "", "Springfield", "", "01107", "", "Springfield", "42.1198000199999995629696059040725231170654296875", "-72.6057001500000041005478124134242534637451171875", "1", "K12", "M", "", "", "SPFDMA39NAA", "P", "" ]
+, [ 62, "geo_rujc-agwg-1.62", null, null, null, null, null, null, "1908", "706", "1549", "M. Marcus Kiley Middle School", "X", "180", "", "Cooley", "", "Street", "180 Cooley Street", "", "Springfield", "", "01128", "", "Springfield", "42.09822202000000146426827996037900447845458984375", "-72.500947150000001784064806997776031494140625", "1", "Middle School", "M", "", "", "SPFDMAWXNAA", "P", "" ]
+, [ 63, "geo_rujc-agwg-1.63", null, null, null, null, null, null, "2386", "707", "1948", "Mansfield Beauty Schools", "N", "266", "", "Bridge", "", "Street", "266 Bridge Street", "", "Springfield", "", "01103", "", "Springfield", "42.10398096000000123240170069038867950439453125", "-72.5914150699999964899689075537025928497314453125", "5B", "", "M", "", "", "", "", "" ]
+, [ 64, "geo_rujc-agwg-1.64", null, null, null, null, null, null, "2412", "709", "1970", "Margaret C Ells", "N", "319", "", "Cortland", "", "Street", "319 Cortland Street", "", "Springfield", "", "01109", "", "Springfield", "42.1239928600000013148019206710159778594970703125", "-72.5550506699999999682404450140893459320068359375", "1", "K12", "M", "", "", "", "", "" ]
+, [ 65, "geo_rujc-agwg-1.65", null, null, null, null, null, null, "578", "710", "938", "Martin Luther King Jr. Charter School of Excellence", "X", "649", "", "State", "", "Street", "649 State Street", "", "Springfield", "", "01109", "", "Springfield", "42.10986562000000077432559919543564319610595703125", "-72.5709931500000067217115429230034351348876953125", "1", "K12", "M", "", "", "", "P", "" ]
+, [ 66, "geo_rujc-agwg-1.66", null, null, null, null, null, null, "2411", "711", "1969", "Mary M Lynch", "N", "315", "North", "Branch", "", "Parkway", "315 North Branch Parkway", "", "Springfield", "", "01119", "", "Springfield", "42.1290278000000029123839340172708034515380859375", "-72.5104035899999956882311380468308925628662109375", "1", "K12", "M", "", "", "", "", "" ]
+, [ 67, "geo_rujc-agwg-1.67", null, null, null, null, null, null, "2417", "712", "1975", "Mary M Walsh", "N", "50", "", "Empress", "", "Court", "50 Empress Court", "", "Springfield", "", "01129", "", "Springfield", "42.11526692000000338111931341700255870819091796875", "-72.4937470400000023573738872073590755462646484375", "1", "K12", "M", "", "", "", "", "" ]
+, [ 68, "geo_rujc-agwg-1.68", null, null, null, null, null, null, "566", "713", "854", "Mary O Pottenger", "X", "1435", "", "Carew", "", "Street", "1435 Carew Street", "", "Springfield", "", "01104", "", "Springfield", "42.1378000200000002450906322337687015533447265625", "-72.566700150000002622618922032415866851806640625", "1", "K12", "M", "", "", "SPFDMA41NAA", "P", "" ]
+, [ 69, "geo_rujc-agwg-1.69", null, null, null, null, null, null, "2332", "714", "1909", "Mason Square Health Center", "N", "11", "", "Wilbraham", "", "Road", "11 Wilbraham Road", "", "Springfield", "", "01109", "", "Springfield", "42.11104492999999848734660190530121326446533203125", "-72.563200620000003482346073724329471588134765625", "3", "", "P", "", "", "", "", "" ]
+, [ 70, "geo_rujc-agwg-1.70", null, null, null, null, null, null, "2343", "715", "1916", "Massachusetts Career Development Institute", "N", "140", "", "Wilbraham", "", "Avenue", "140 Wilbraham Avenue", "", "Springfield", "", "01109", "", "Springfield", "42.10792891999999909558027866296470165252685546875", "-72.56065601000000242493115365505218505859375", "3", "", "P", "", "", "", "", "" ]
+, [ 71, "geo_rujc-agwg-1.71", null, null, null, null, null, null, "2419", "758", "1977", "Our Lady Sacred Heart", "N", "52", "", "Rosewell", "", "Avenue", "52 Rosewell Avenue", "", "Springfield", "", "01109", "", "Springfield", "42.12896126999999779627614771015942096710205078125", "-72.5271799700000059374360716901719570159912109375", "1", "K12", "M", "", "", "", "", "" ]
+, [ 72, "geo_rujc-agwg-1.72", null, null, null, null, null, null, "575", "759", "908", "Our Lady of Hope", "N", "474", "", "Armory", "", "Street", "474 Armory Street", "", "Springfield", "", "01104", "", "Springfield", "42.12098601999999658573869965039193630218505859375", "-72.5878071500000032756361179053783416748046875", "1", "K12", "M", "", "", "", "", "" ]
+, [ 73, "geo_rujc-agwg-1.73", null, null, null, null, null, null, "2344", "761", "1917", "Park View Specialty Hospital", "N", "1400", "", "State", "", "Street", "1400 State Street", "", "Springfield", "", "01109", "", "Springfield", "42.12086246999999872286934987641870975494384765625", "-72.5478171299999985421891324222087860107421875", "3", "", "P", "", "", "", "", "" ]
+, [ 74, "geo_rujc-agwg-1.74", null, null, null, null, null, null, "1927", "767", "1561", "Pine Point Branch Library", "N", "204", "", "Boston", "", "Road", "204 Boston Road", "", "Springfield", "", "01109", "", "Springfield", "42.12638901999999774261596030555665493011474609375", "-72.5335191500000036057826946489512920379638671875", "2", "Library", "M", "", "", "", "", "" ]
+, [ 75, "geo_rujc-agwg-1.75", null, null, null, null, null, null, "2428", "768", "1984", "Pioneer Valley Christian", "N", "965", "", "Plumtree", "", "Road", "965 Plumtree Road", "", "Springfield", "", "01119", "", "Springfield", "42.10349606999999849676896701566874980926513671875", "-72.5162411000000020067091099917888641357421875", "1", "K12", "M", "", "", "", "", "" ]
+, [ 76, "geo_rujc-agwg-1.76", null, null, null, null, null, null, "2401", "769", "1959", "Pioneer Valley Montessori", "N", "1524", "", "Parker", "", "Street", "1524 Parker Street", "", "Springfield", "", "01129", "", "Springfield", "42.10574186000000196372639038600027561187744140625", "-72.4975697699999983569796313531696796417236328125", "1", "K12", "P", "", "", "", "", "" ]
+, [ 77, "geo_rujc-agwg-1.77", null, null, null, null, null, null, "1925", "830", "1559", "Sixteen Acres Branch Library", "Y", "1187", "", "Parker", "", "Street", "1187 Parker Street", "", "Springfield", "", "01129", "", "Springfield", "42.11702702000000186899342224933207035064697265625", "-72.4983291500000035512130125425755977630615234375", "2", "Library", "M", "", "", "SPFDMA20NAA", "G", "" ]
+, [ 78, "geo_rujc-agwg-1.78", null, null, null, null, null, null, "563", "1077", "842", "Van Sickle Middle School", "X", "1170", "", "Carew", "", "Street", "1170 Carew Street", "", "Springfield", "", "01104", "", "Springfield", "42.133100020000000540676410309970378875732421875", "-72.57450015000000576037564314901828765869140625", "1", "Middle School", "M", "", "", "SPFDMAWNNAA", "P", "" ]
+, [ 79, "geo_rujc-agwg-1.79", null, null, null, null, null, null, "576", "1087", "909", "Warner", "X", "493", "", "Parker", "", "Street", "493 Parker Street", "", "Springfield", "", "01129", "", "Springfield", "42.14046397999999982175722834654152393341064453125", "-72.4952066700000017362981452606618404388427734375", "1", "K12", "M", "", "", "SPFDMA44NAA", "P", "" ]
+, [ 80, "geo_rujc-agwg-1.80", null, null, null, null, null, null, "2400", "1089", "1958", "Washington", "N", "141", "", "Washington", "", "Street", "141 Washington Street", "", "Springfield", "", "01108", "", "Springfield", "42.08258713000000028614522307179868221282958984375", "-72.549830990000003794193617068231105804443359375", "1", "K12", "M", "", "", "", "", "" ]
+, [ 81, "geo_rujc-agwg-1.81", null, null, null, null, null, null, "770", "968", "919", "Caring Health Center Inc", "Y", "", "", "", "", "", "532 Sumner Avenue", "", "Springfield", "", "01108", "", "Springfield", "42.08674771999999819627191754989326000213623046875", "-72.5574632900000011659358278848230838775634765625", "3", "Satellite of Clinic", "P", "", "", "SPFDMAZHN01", "R", "" ]
+, [ 82, "geo_rujc-agwg-1.82", null, null, null, null, null, null, "1379", "1233", "949", "82 Edmund Wynne Cir", "N", "", "", "", "", "", "82 Edmund Wynne Cir", "", "Springfield", "", "01101", "", "Springfield", "42.12274261999999680483597330749034881591796875", "-72.559034249999996291080606169998645782470703125", "8", "Public Housing", "M", "Springfield Housing Authority", "", "", "", "" ]
+, [ 83, "geo_rujc-agwg-1.83", null, null, null, null, null, null, "1380", "1234", "952", "85 William St", "N", "", "", "", "", "", "85 William St", "", "Springfield", "", "01101", "", "Springfield", "42.09690001999999964255039230920374393463134765625", "-72.5842001500000009173163562081754207611083984375", "8", "Public Housing", "M", "Springfield Housing Authority", "", "", "", "" ]
+, [ 84, "geo_rujc-agwg-1.84", null, null, null, null, null, null, "2395", "1065", "1953", "The Macduffie School", "N", "1", "", "Ames Hill", "", "Drive", "1 Ames Hill Drive", "", "Springfield", "", "01105", "", "Springfield", "42.09833384000000222613380174152553081512451171875", "-72.5754624599999971223951433785259723663330078125", "1", "K12", "M", "", "", "", "", "" ]
+, [ 85, "geo_rujc-agwg-1.85", null, null, null, null, null, null, "562", "1066", "842", "The Springfield Renaissance School", "X", "1170", "", "Carew", "", "Street", "1170 Carew Street", "", "Springfield", "", "01104", "", "Springfield", "42.133100020000000540676410309970378875732421875", "-72.57450015000000576037564314901828765869140625", "1", "K12", "M", "", "", "SPFDMAWNNAC", "P", "" ]
+, [ 86, "geo_rujc-agwg-1.86", null, null, null, null, null, null, "2397", "1068", "1955", "Thomas M Balliet", "N", "111", "", "Seymour", "", "Avenue", "111 Seymour Avenue", "", "Springfield", "", "01109", "", "Springfield", "42.125297189999997726772562600672245025634765625", "-72.5288754099999977142942952923476696014404296875", "1", "K12", "M", "", "", "", "", "" ]
+, [ 87, "geo_rujc-agwg-1.87", null, null, null, null, null, null, "2346", "1122", "1918", "Academic & Behavioral Clinic", "N", "", "", "", "", "", "155 Maple St", "", "Springfield", "", "01103", "", "Springfield", "42.102402019999999538413248956203460693359375", "-72.591400149999998347993823699653148651123046875", "3", "", "P", "", "", "", "", "" ]
+, [ 88, "geo_rujc-agwg-1.88", null, null, null, null, null, null, "2347", "1133", "860", "Apex Healthcare Services Inc", "N", "", "", "", "", "", "1695 Main St", "", "Springfield", "", "01103", "", "Springfield", "42.102402019999999538413248956203460693359375", "-72.591400149999998347993823699653148651123046875", "3", "", "P", "", "", "", "", "" ]
+, [ 89, "geo_rujc-agwg-1.89", null, null, null, null, null, null, "580", "1026", "955", "Springfield Academy for Excellence", "X", "90", "", "Berkshire", "", "Street", "90 Berkshire Street", "", "Springfield", "", "01151", "", "Springfield", "42.1575000200000005179390427656471729278564453125", "-72.5070001499999960969944368116557598114013671875", "1", "K12", "M", "", "", "SPFEMAFLNAA", "P", "" ]
+, [ 90, "geo_rujc-agwg-1.90", null, null, null, null, null, null, "1207", "1027", "888", "Springfield City Hall", "X", "36", "", "Court", "", "Street", "36 Court Street", "", "Springfield", "", "01103", "", "Springfield", "42.101174520000000711661414243280887603759765625", "-72.5893120500000037509380490519106388092041015625", "6", "Town Hall", "M", "", "", "SPFDMALHNAC", "P", "" ]
+, [ 91, "geo_rujc-agwg-1.91", null, null, null, null, null, null, "2385", "1028", "1907", "Springfield College", "N", "263", "", "Alden", "", "Street", "263 Alden Street", "", "Springfield", "", "01109", "", "Springfield", "42.10161518000000313577402266673743724822998046875", "-72.5567748600000044234548113308846950531005859375", "5B", "College", "M", "", "", "", "", "" ]
+, [ 92, "geo_rujc-agwg-1.92", null, null, null, null, null, null, "2391", "1029", "1951", "Springfield Fire Department", "N", "173", "", "Oakland", "", "Street", "173 Oakland Street", "", "Springfield", "", "01108", "", "Springfield", "42.089867499999996880433172918856143951416015625", "-72.563244179999998095809132792055606842041015625", "4", "Fire Station", "M", "", "", "", "", "" ]
+, [ 93, "geo_rujc-agwg-1.93", null, null, null, null, null, null, "307", "1030", "844", "Springfield Fire Department", "X", "1212", "", "Carew", "", "Street", "1212 Carew Street", "", "Springfield", "", "01104", "", "Springfield", "42.13399992000000082725819083862006664276123046875", "-72.571700149999998075145413167774677276611328125", "4", "Fire Station", "M", "", "", "SPFDMA96NAC", "P", "" ]
+, [ 94, "geo_rujc-agwg-1.94", null, null, null, null, null, null, "314", "1031", "874", "Springfield Fire Department, Station #10", "N", "2729", "", "Main", "", "Street", "2729 Main Street", "", "Springfield", "", "01107", "", "Springfield", "42.11564023999999761826984467916190624237060546875", "-72.60611466000000291387550532817840576171875", "4", "Fire Station", "M", "", "", "SPFDMA97NAA", "", "" ]
+, [ 95, "geo_rujc-agwg-1.95", null, null, null, null, null, null, "2393", "1032", "1952", "Springfield Fire Department", "N", "33", "", "Eastern", "", "Avenue", "33 Eastern Avenue", "", "Springfield", "", "01109", "", "Springfield", "42.11022770999999664809365640394389629364013671875", "-72.563450829999993629826349206268787384033203125", "4", "Fire Station", "M", "", "", "", "", "" ]
+, [ 96, "geo_rujc-agwg-1.96", null, null, null, null, null, null, "2409", "1051", "1967", "White Street", "N", "300", "", "White", "", "Street", "300 White Street", "", "Springfield", "", "01108", "", "Springfield", "42.090149179999997386403265409171581268310546875", "-72.5535384300000032453681342303752899169921875", "1", "K12", "M", "", "", "", "", "" ]
+, [ 97, "geo_rujc-agwg-1.97", null, null, null, null, null, null, "2423", "1055", "1980", "William N. DeBerry", "N", "670", "", "Union", "", "Street", "670 Union Street", "", "Springfield", "", "01109", "", "Springfield", "42.1088095100000003867535269819200038909912109375", "-72.56607678000000305473804473876953125", "1", "K12", "M", "", "", "", "", "" ]
+, [ 98, "geo_rujc-agwg-1.98", null, null, null, null, null, null, "2384", "1100", "1905", "Western New England College", "N", "1215", "", "Wilbraham", "", "Road", "1215 Wilbraham Road", "", "Springfield", "", "01119", "", "Springfield", "42.11512762000000265061316895298659801483154296875", "-72.520268490000006522677722387015819549560546875", "5B", "College", "M", "", "", "", "", "" ]
+, [ 99, "geo_rujc-agwg-1.99", null, null, null, null, null, null, "321", "991", "946", "Baystate Health Ambulance", "Y", "759", "", "Chestnut", "", "Street", "759 Chestnut Street", "", "Springfield", "", "01107", "", "Springfield", "42.1197752300000018976788851432502269744873046875", "-72.6034794499999946992829791270196437835693359375", "4", "Ambulance", "P", "", "", "SPFDMADJNAC", "R", "" ]
+, [ 100, "geo_rujc-agwg-1.100", null, null, null, null, null, null, "2388", "1004", "1949", "Sanford-Brown Institute", "N", "365", "", "Cadwell", "", "Drive", "365 Cadwell Drive", "1st Floor", "Springfield", "", "01104", "", "Springfield", "42.15079352000000056932549341581761837005615234375", "-72.5437346599999983709494699724018573760986328125", "5B", "", "M", "", "", "", "", "" ]
+, [ 101, "geo_rujc-agwg-1.101", null, null, null, null, null, null, "860", "1009", "915", "Shriners Hospital For Children", "N", "516", "", "Carew", "", "Street", "516 Carew Street", "", "Springfield", "", "01104", "", "Springfield", "42.12140002000000293946868623606860637664794921875", "-72.592100149999993163874023593962192535400390625", "3", "Hospital", "P", "", "", "SPFDMALANAA", "", "" ]
+, [ 102, "geo_rujc-agwg-1.102", null, null, null, null, null, null, "1381", "1110", "953", "86 Edmund Wynne Cir", "N", "", "", "", "", "", "86 Edmund Wynne Cir", "", "Springfield", "", "01101", "", "Springfield", "42.12276031999999759136699140071868896484375", "-72.5590598499999970272256177850067615509033203125", "8", "Public Housing", "M", "Springfield Housing Authority", "", "", "", "" ]
+, [ 103, "geo_rujc-agwg-1.103", null, null, null, null, null, null, "1389", "1117", "960", "96 Lionel Benoit Rd", "N", "", "", "", "", "", "96 Lionel Benoit Rd", "", "Springfield", "", "01101", "", "Springfield", "42.121637219999996659680618904531002044677734375", "-72.55988865000000487270881421864032745361328125", "8", "Public Housing", "M", "Springfield Housing Authority", "", "", "", "" ]
+, [ 104, "geo_rujc-agwg-1.104", null, null, null, null, null, null, "1390", "1118", "963", "98 Lionel Benoit Rd", "N", "", "", "", "", "", "98 Lionel Benoit Rd", "", "Springfield", "", "01101", "", "Springfield", "42.1216355199999981095970724709331989288330078125", "-72.5598563500000039994120015762746334075927734375", "8", "Public Housing", "M", "Springfield Housing Authority", "", "", "", "" ]
+, [ 105, "geo_rujc-agwg-1.105", null, null, null, null, null, null, "902", "1120", "849", "AG - Springfield", "N", "", "", "", "", "", "1350 Main St", "4th Flr", "Springfield", "", "01103", "", "Springfield", "42.1018000199999988808485795743763446807861328125", "-72.589500049999998054772731848061084747314453125", "6", "Attorney General", "S", "", "", "SPFDMAAHNAA", "", "" ]
+, [ 106, "geo_rujc-agwg-1.106", null, null, null, null, null, null, "1371", "1225", "941", "Springfield Housing Authority", "N", "", "", "", "", "", "138 Florida St", "", "Springfield", "", "01101", "", "Springfield", "42.1148943500000001449734554626047611236572265625", "-72.5745775900000040792292566038668155670166015625", "8", "Public Housing", "M", "Springfield Housing Authority", "", "SPFDMAHONAA", "", "" ]
+, [ 107, "geo_rujc-agwg-1.107", null, null, null, null, null, null, "1372", "1226", "942", "72 Lionel Benoit Rd", "N", "", "", "", "", "", "72 Lionel Benoit Rd", "", "Springfield", "", "01101", "", "Springfield", "42.1217068199999999933424987830221652984619140625", "-72.560250150000001667649485170841217041015625", "8", "Public Housing", "M", "Springfield Housing Authority", "", "", "", "" ]
+, [ 108, "geo_rujc-agwg-1.108", null, null, null, null, null, null, "1374", "1228", "945", "74 Lionel Benoit Rd", "N", "", "", "", "", "", "74 Lionel Benoit Rd", "", "Springfield", "", "01101", "", "Springfield", "42.12169261999999747558831586502492427825927734375", "-72.5602192500000029440343496389687061309814453125", "8", "Public Housing", "M", "Springfield Housing Authority", "", "", "", "" ]
+, [ 109, "geo_rujc-agwg-1.109", null, null, null, null, null, null, "768", "1239", "840", "Caring Health Center", "N", "", "", "", "", "", "1145 Main St", "", "Springfield", "", "01103", "", "Springfield", "42.10040821999999849367668502964079380035400390625", "-72.5861605500000024449036573059856891632080078125", "3", "CHC", "P", "", "", "", "", "" ]
+, [ 110, "geo_rujc-agwg-1.110", null, null, null, null, null, null, "2336", "1241", "1913", "Carson Ctr For Human Svcs Inc, The", "N", "", "", "", "", "", "120 Maple St", "", "Springfield", "MA", "01103", "", "Springfield", "42.13290002000000100679244496859610080718994140625", "-72.7492981500000013284079614095389842987060546875", "3", "", "P", "", "", "", "", "" ]
+, [ 111, "geo_rujc-agwg-1.111", null, null, null, null, null, null, "2515", "1246", "2064", "Center for Traumatic Brain Injury Services", "N", "", "", "", "", "", "505 E. Columbus Ave", "", "Springfield", "", "01105", "", "Springfield", "42.089569920000002412052708677947521209716796875", "-72.58098845000000665095285512506961822509765625", "3", "", "P", "", "", "", "", "" ]
+, [ 112, "geo_rujc-agwg-1.112", null, null, null, null, null, null, "2348", "1248", "861", "Central Hs Health Ctr", "N", "", "", "", "", "", "1840 Roosevelt Ave", "", "Springfield", "", "01109", "", "Springfield", "42.11729801999999978079358697868883609771728515625", "-72.549500150000000076033757068216800689697265625", "3", "", "P", "", "", "", "", "" ]
+, [ 113, "geo_rujc-agwg-1.113", null, null, null, null, null, null, "2350", "1250", "1921", "Chapin Center", "N", "", "", "", "", "", "200 Kendall St", "", "Springfield", "", "01104", "", "Springfield", "42.1213760199999995847974787466228008270263671875", "-72.579262150000005249239620752632617950439453125", "3", "", "P", "", "", "", "", "" ]
+, [ 114, "geo_rujc-agwg-1.114", null, null, null, null, null, null, "2334", "1261", "1911", "Child Guidance Clinic", "N", "", "", "", "", "", "110 Maple St", "", "Springfield", "", "01105", "", "Springfield", "42.09629801999999898498572292737662792205810546875", "-72.5790021499999937759639578871428966522216796875", "3", "", "P", "", "", "", "", "" ]
+, [ 115, "geo_rujc-agwg-1.115", null, null, null, null, null, null, "1275", "1141", "837", "106 Lionel Benoit Rd", "N", "", "", "", "", "", "106 Lionel Benoit Rd", "", "Springfield", "", "01101", "", "Springfield", "42.1217168200000031674790079705417156219482421875", "-72.559658450000000584623194299638271331787109375", "8", "Public Housing", "M", "Springfield Housing Authority", "", "", "", "" ]
+, [ 116, "geo_rujc-agwg-1.116", null, null, null, null, null, null, "1276", "1142", "838", "108 Lionel Benoit Rd", "N", "", "", "", "", "", "108 Lionel Benoit Rd", "", "Springfield", "", "01101", "", "Springfield", "42.12174402000000128509782371111214160919189453125", "-72.559605349999998225030140019953250885009765625", "8", "Public Housing", "M", "Springfield Housing Authority", "", "", "", "" ]
+, [ 117, "geo_rujc-agwg-1.117", null, null, null, null, null, null, "1289", "1153", "850", "138 St James Ave", "N", "", "", "", "", "", "138 St James Ave", "", "Springfield", "", "01101", "", "Springfield", "42.1135369200000013734097592532634735107421875", "-72.5724333499999971763827488757669925689697265625", "8", "Public Housing", "M", "Springfield Housing Authority", "", "", "", "" ]
+, [ 118, "geo_rujc-agwg-1.118", null, null, null, null, null, null, "1291", "1154", "853", "142 St James Ave", "N", "", "", "", "", "", "142 St James Ave", "", "Springfield", "", "01101", "", "Springfield", "42.1136645200000003796958480961620807647705078125", "-72.5723601499999944053342915140092372894287109375", "8", "Public Housing", "M", "Springfield Housing Authority", "", "", "", "" ]
+, [ 119, "geo_rujc-agwg-1.119", null, null, null, null, null, null, "1319", "1181", "872", "27 Aster St", "N", "", "", "", "", "", "27 Aster St", "", "Springfield", "", "01101", "", "Springfield", "42.1237577200000004040703061036765575408935546875", "-72.5589238499999993337041814811527729034423828125", "8", "Public Housing", "M", "Springfield Housing Authority", "", "", "", "" ]
+, [ 120, "geo_rujc-agwg-1.120", null, null, null, null, null, null, "1325", "1186", "877", "30 Lionel Benoit Rd", "N", "", "", "", "", "", "30 Lionel Benoit Rd", "", "Springfield", "", "01101", "", "Springfield", "42.12200012000000270973032456822693347930908203125", "-72.560860050000002274828148074448108673095703125", "8", "Public Housing", "M", "Springfield Housing Authority", "", "", "", "" ]
+, [ 121, "geo_rujc-agwg-1.121", null, null, null, null, null, null, "1329", "1188", "882", "33 Arch", "N", "", "", "", "", "", "33 Arch St", "", "Springfield", "", "01101", "", "Springfield", "42.11360001999999980171196511946618556976318359375", "-72.6064000500000048532456276006996631622314453125", "8", "Public Housing", "M", "Springfield Housing Authority", "", "", "", "" ]
+, [ 122, "geo_rujc-agwg-1.122", null, null, null, null, null, null, "1331", "1189", "889", "36 Edmund Wynne Cir", "N", "", "", "", "", "", "36 Edmund Wynne Cir", "", "Springfield", "", "01101", "", "Springfield", "42.12254021999999764602762297727167606353759765625", "-72.5587399500000032048774301074445247650146484375", "8", "Public Housing", "M", "Springfield Housing Authority", "", "", "", "" ]
+, [ 123, "geo_rujc-agwg-1.123", null, null, null, null, null, null, "1334", "1192", "893", "37 Ringgold St", "N", "", "", "", "", "", "37 Ringgold St", "", "Springfield", "", "01101", "", "Springfield", "42.1135793199999994840254657901823520660400390625", "-72.599806749999999055944499559700489044189453125", "8", "Public Housing", "M", "Springfield Housing Authority", "", "", "", "" ]
+, [ 124, "geo_rujc-agwg-1.124", null, null, null, null, null, null, "1336", "1194", "894", "38 Grosvenor St", "N", "", "", "", "", "", "38 Grosvenor St", "", "Springfield", "", "01101", "", "Springfield", "42.11312182000000348125468008220195770263671875", "-72.5991951499999998986822902224957942962646484375", "8", "Public Housing", "M", "Springfield Housing Authority", "", "", "", "" ]
+, [ 125, "geo_rujc-agwg-1.125", null, null, null, null, null, null, "1343", "1199", "900", "43 Ringgold St", "N", "", "", "", "", "", "43 Ringgold St", "", "Springfield", "", "01101", "", "Springfield", "42.1135793199999994840254657901823520660400390625", "-72.599806749999999055944499559700489044189453125", "8", "Public Housing", "M", "Springfield Housing Authority", "", "", "", "" ]
+, [ 126, "geo_rujc-agwg-1.126", null, null, null, null, null, null, "1348", "1204", "910", "5 Lionel Benoit Rd", "N", "", "", "", "", "", "5 Lionel Benoit Rd", "", "Springfield", "", "01101", "", "Springfield", "42.1216254200000008722781785763800144195556640625", "-72.5601462500000025102053768932819366455078125", "8", "Public Housing", "M", "Springfield Housing Authority", "", "", "", "" ]
+, [ 127, "geo_rujc-agwg-1.127", null, null, null, null, null, null, "1351", "1207", "913", "51 Allendale St", "N", "", "", "", "", "", "51 Allendale St", "", "Springfield", "", "01101", "", "Springfield", "42.1150476199999985738031682558357715606689453125", "-72.6003550500000045531123760156333446502685546875", "8", "Public Housing", "M", "Springfield Housing Authority", "", "SPFDMAGMNAA", "", "" ]
+, [ 128, "geo_rujc-agwg-1.128", null, null, null, null, null, null, "1353", "1209", "916", "52 Edmund Wynne Cir", "N", "", "", "", "", "", "52 Edmund Wynne Cir", "", "Springfield", "", "01101", "", "Springfield", "42.1226107199999972863224684260785579681396484375", "-72.5588423500000061494574765674769878387451171875", "8", "Public Housing", "M", "Springfield Housing Authority", "", "", "", "" ]
+, [ 129, "geo_rujc-agwg-1.129", null, null, null, null, null, null, "1354", "1210", "920", "54 Edmund Wynne Cir", "N", "", "", "", "", "", "54 Edmund Wynne Cir", "", "Springfield", "", "01101", "", "Springfield", "42.12261952000000064799678511917591094970703125", "-72.55885514999999941210262477397918701171875", "8", "Public Housing", "M", "Springfield Housing Authority", "", "", "", "" ]
+, [ 130, "geo_rujc-agwg-1.130", null, null, null, null, null, null, "1355", "1211", "921", "54 Lionel Benoit Rd", "N", "", "", "", "", "", "54 Lionel Benoit Rd", "", "Springfield", "", "01101", "", "Springfield", "42.121837220000003298991941846907138824462890625", "-72.560527350000000978980096988379955291748046875", "8", "Public Housing", "M", "Springfield Housing Authority", "", "", "", "" ]
+, [ 131, "geo_rujc-agwg-1.131", null, null, null, null, null, null, "1357", "1213", "924", "557 Bay St", "N", "", "", "", "", "", "557 Bay St", "", "Springfield", "", "01101", "", "Springfield", "42.1223950199999990218202583491802215576171875", "-72.561005149999999730425770394504070281982421875", "8", "Public Housing", "M", "Springfield Housing Authority", "", "", "", "" ]
+, [ 132, "geo_rujc-agwg-1.132", null, null, null, null, null, null, "1358", "1214", "926", "579 Bay St", "N", "", "", "", "", "", "579 Bay St", "", "Springfield", "", "01101", "", "Springfield", "42.1229520199999996066253515891730785369873046875", "-72.560577150000000301588443107903003692626953125", "8", "Public Housing", "M", "Springfield Housing Authority", "", "", "", "" ]
+, [ 133, "geo_rujc-agwg-1.133", null, null, null, null, null, null, "1359", "1215", "927", "58 Edmund Wynne Cir", "N", "", "", "", "", "", "58 Edmund Wynne Cir", "", "Springfield", "", "01101", "", "Springfield", "42.12263712000000026591806090436875820159912109375", "-72.5588807500000001482476363889873027801513671875", "8", "Public Housing", "M", "Springfield Housing Authority", "", "", "", "" ]
+, [ 134, "geo_rujc-agwg-1.134", null, null, null, null, null, null, "1360", "1216", "928", "589 Bay St", "N", "", "", "", "", "", "589 Bay St", "", "Springfield", "", "01101", "", "Springfield", "42.12316091999999656536601833067834377288818359375", "-72.5604251500000003716195351444184780120849609375", "8", "Public Housing", "M", "Springfield Housing Authority", "", "", "", "" ]
+, [ 135, "geo_rujc-agwg-1.135", null, null, null, null, null, null, "1361", "1217", "930", "597 Bay St", "N", "", "", "", "", "", "597 Bay St", "", "Springfield", "", "01101", "", "Springfield", "42.123329019999999900392140261828899383544921875", "-72.5603031499999957532054395414888858795166015625", "8", "Public Housing", "M", "Springfield Housing Authority", "", "", "", "" ]
+, [ 136, "geo_rujc-agwg-1.136", null, null, null, null, null, null, "1364", "1218", "936", "62 Lionel Benoit Rd", "N", "", "", "", "", "", "62 Lionel Benoit Rd", "", "Springfield", "", "01101", "", "Springfield", "42.12177802000000070847818278707563877105712890625", "-72.560405750000001035004970617592334747314453125", "8", "Public Housing", "M", "Springfield Housing Authority", "", "", "", "" ]
+, [ 137, "geo_rujc-agwg-1.137", null, null, null, null, null, null, "1365", "1219", "937", "62-64-66-68 Edmund Wynne Cir", "N", "", "", "", "", "", "62-64-66-68 Edmund Wynne Cir", "", "Springfield", "", "01101", "", "Springfield", "42.12266352000000324551365338265895843505859375", "-72.5589190500000000838554115034639835357666015625", "8", "Public Housing", "M", "Springfield Housing Authority", "", "", "", "" ]
+, [ 138, "geo_rujc-agwg-1.138", null, null, null, null, null, null, "1045", "1430", "867", "Gandara Mental Health Center", "Y", "", "", "", "", "", "2155 Main St", "", "Springfield", "MA", "01104", "", "Springfield", "42.10967099999999874171408009715378284454345703125", "-72.60047138999999560837750323116779327392578125", "6", "Department of Mental Health", "S", "", "", "SPFDMAVDNAA", "G", "EOHHS" ]
+, [ 139, "geo_rujc-agwg-1.139", null, null, null, null, null, null, "985", "1362", "902", "DIA - Springfield", "Y", "", "", "", "", "", "436 Dwight St", "Room 105", "Springfield", "", "01103", "", "Springfield", "42.10611767000000327243469655513763427734375", "-72.5923955100000029005968826822936534881591796875", "6", "Division of Industrial Accidents", "S", "", "", "SPFDMAIRNAE", "R", "ITD" ]
+, [ 140, "geo_rujc-agwg-1.140", null, null, null, null, null, null, "990", "1363", "902", "DLR - Springfield Office - Springfield State Office Building", "Y", "", "", "", "", "", "436 Dwight St", "Room 106", "Springfield", "", "01103", "", "Springfield", "42.10611767000000327243469655513763427734375", "-72.5923955100000029005968826822936534881591796875", "6", "Division of Labor Relations", "S", "", "", "SPFDMAIRNAC", "R", "ITD" ]
+, [ 141, "geo_rujc-agwg-1.141", null, null, null, null, null, null, "2390", "1269", "1950", "Springfield Armory", "N", "", "", "", "", "", "1505 Roosevelt Ave", "", "Springfield", "", "01109", "", "Springfield", "42.12243902000000161933712661266326904296875", "-72.550109149999997271152096800506114959716796875", "4", "", "S", "", "", "", "", "" ]
+, [ 142, "geo_rujc-agwg-1.142", null, null, null, null, null, null, "2355", "1276", "884", "Baystate Ambulatory Cc@3300 Main St", "N", "", "", "", "", "", "3300 Main St", "", "Springfield", "", "01107", "", "Springfield", "42.12030002000000195039319805800914764404296875", "-72.6054001499999941415808279998600482940673828125", "3", "", "P", "", "", "", "", "" ]
+, [ 143, "geo_rujc-agwg-1.143", null, null, null, null, null, null, "2342", "1277", "852", "Baystate Ambulatory Cc @ 140 High St", "N", "", "", "", "", "", "140 High Street", "", "Springfield", "", "01105", "", "Springfield", "42.10539218000000261099557974375784397125244140625", "-72.5796436800000037692370824515819549560546875", "3", "High School", "P", "", "", "", "", "" ]
+, [ 144, "geo_rujc-agwg-1.144", null, null, null, null, null, null, "2358", "1279", "1926", "Baystate Mc Comprehensive Breast Ct", "N", "", "", "", "", "", "3400 Main St", "", "Springfield", "", "01107", "", "Springfield", "42.12030002000000195039319805800914764404296875", "-72.6054001499999941415808279998600482940673828125", "3", "", "P", "", "", "", "", "" ]
+, [ 145, "geo_rujc-agwg-1.145", null, null, null, null, null, null, "753", "1280", "884", "Baystate Mri & Imaging Center Llc", "N", "", "", "", "", "", "3300 Main St", "", "Springfield", "", "01107", "", "Springfield", "42.122900020000002996312105096876621246337890625", "-72.61030015000000048530637286603450775146484375", "3", "Clinics", "P", "", "", "", "", "" ]
+, [ 146, "geo_rujc-agwg-1.146", null, null, null, null, null, null, "2353", "1281", "1924", "Baystate Orthopedic Surgery Center", "N", "", "", "", "", "", "298 Carew St", "", "Springfield", "", "01104", "", "Springfield", "42.12730001999999984718670020811259746551513671875", "-72.577103149999999232022673822939395904541015625", "3", "", "P", "", "", "", "", "" ]
+, [ 147, "geo_rujc-agwg-1.147", null, null, null, null, null, null, "2360", "1284", "1927", "Baystate Rehab Cre Adult Outpt Srvs", "N", "", "", "", "", "", "360 Birnie Ave", "", "Springfield", "", "01199", "", "Springfield", "42.12345101999999741337887826375663280487060546875", "-72.61133614999999963401933200657367706298828125", "3", "", "P", "", "", "", "", "" ]
+, [ 148, "geo_rujc-agwg-1.148", null, null, null, null, null, null, "755", "1286", "911", "Baystate VNA & Hospice", "N", "", "", "", "", "", "50 Maple St", "Po Box 9058", "Springfield", "", "01102", "", "Springfield", "42.10224941999999970221324474550783634185791015625", "-72.5840527499999978999767336063086986541748046875", "3", "Hospice Freestanding", "P", "", "", "", "", "" ]
+, [ 149, "geo_rujc-agwg-1.149", null, null, null, null, null, null, "757", "1288", "948", "Beacon Hospice Inc", "N", "", "", "", "", "", "819 Worcester St", "", "Springfield", "MA", "01151", "", "Springfield", "42.1589314200000018217906472273170948028564453125", "-72.51459364999999479550751857459545135498046875", "3", "Hospice Freestanding", "P", "", "", "", "", "" ]
+, [ 150, "geo_rujc-agwg-1.150", null, null, null, null, null, null, "691", "1538", "912", "Massachusetts Trial Court Law Libraries Hampden Law Library", "Y", "", "", "", "", "", "50 State St", "P. O. Box 559", "Springfield", "", "01103", "", "Springfield", "42.09961059999999832825778867118060588836669921875", "-72.5888732300000043551335693337023258209228515625", "6", "Library", "M", "", "", "SPFDMAJANAF", "R", "" ]
+, [ 151, "geo_rujc-agwg-1.151", null, null, null, null, null, null, "1063", "1457", "892", "Hampden County - Hampden Juvenile Court - Springfield", "Y", "", "", "", "", "", "80 State St", "", "Springfield", "", "01103", "", "Springfield", "42.10022691000000349959009326994419097900390625", "-72.5885741000000024314431357197463512420654296875", "6", "Court", "S", "", "", "SPFEMA62NAA", "R", "TRC" ]
+, [ 152, "geo_rujc-agwg-1.152", null, null, null, null, null, null, "1064", "1458", "912", "Hampden County - Hampden Superior Court", "Y", "", "", "", "", "", "50 State St", "", "Springfield", "", "01103", "", "Springfield", "42.09961059999999832825778867118060588836669921875", "-72.5888732300000043551335693337023258209228515625", "6", "Court", "S", "", "", "SPFDMAJANAA", "R", "TRC" ]
+, [ 153, "geo_rujc-agwg-1.153", null, null, null, null, null, null, "1068", "1462", "958", "Hampden County Bar Advocates, Inc", "Y", "", "", "", "", "", "95 State St", "Suite 1026", "Springfield", "", "01103", "", "Springfield", "42.10050503000000077236109063960611820220947265625", "-72.5873331300000046439890866167843341827392578125", "7", "Other Community Support Organizations", "S", "", "", "SPFDMADDNAC", "R", "TRC" ]
+, [ 154, "geo_rujc-agwg-1.154", null, null, null, null, null, null, "313", "1463", "871", "Hampden County Correctional Alcohol Center", "Y", "", "", "", "", "", "26 Howard St", "", "Springfield", "", "01105", "", "Springfield", "42.0994139200000034861659514717757701873779296875", "-72.586648220000000719664967618882656097412109375", "4", "Department of Corrections", "S", "", "", "SPFDMATYNAA", "R", "EOPSS" ]
+, [ 155, "geo_rujc-agwg-1.155", null, null, null, null, null, null, "317", "1464", "912", "Hampden County District Attorney", "Y", "", "", "", "", "", "50 State St", "", "Springfield", "", "01103", "", "Springfield", "42.09961059999999832825778867118060588836669921875", "-72.5888732300000043551335693337023258209228515625", "6", "", "S", "", "", "SPFDMAJANAG", "R", "TRC" ]
+, [ 156, "geo_rujc-agwg-1.156", null, null, null, null, null, null, "1006", "1375", "902", "DOR - 436 Dwight St Springfield", "Y", "", "", "", "", "", "436 Dwight St", "", "Springfield", "", "01103", "", "Springfield", "42.10611767000000327243469655513763427734375", "-72.5923955100000029005968826822936534881591796875", "6", "Department of Revenue", "S", "", "", "SPFDMAIRNAN", "R", "ITD" ]
+, [ 157, "geo_rujc-agwg-1.157", null, null, null, null, null, null, "1050", "1439", "902", "Governor's Office - Springfield", "Y", "", "", "", "", "", "436 Dwight St", "Suite 300", "Springfield", "", "01103", "", "Springfield", "42.10611767000000327243469655513763427734375", "-72.5923955100000029005968826822936534881591796875", "6", "Governor", "S", "", "", "SPFDMAIRNAI", "R", "" ]
+, [ 158, "geo_rujc-agwg-1.158", null, null, null, null, null, null, "796", "1446", "940", "Greater Springfield Senior Services", "Y", "66", "", "Industry", "", "Avenue", "66 Industry Avenue", "", "Springfield", "", "01104", "", "Springfield", "42.1419124600000003511013346724212169647216796875", "-72.5441769300000061093669501133263111114501953125", "7", "Senior Services", "P", "", "", "SPFDMAGLNAA", "G", "" ]
+, [ 159, "geo_rujc-agwg-1.159", null, null, null, null, null, null, "306", "1453", "843", "Hampden - Civil Process", "Y", "", "", "", "", "", "1176 Main St", "", "Springfield", "", "01103", "", "Springfield", "42.1004240500000008751158020459115505218505859375", "-72.586574119999994536556187085807323455810546875", "4", "Sheriffs", "S", "", "", "SPFDMASENAA", "R", "EOPSS" ]
+, [ 160, "geo_rujc-agwg-1.160", null, null, null, null, null, null, "2555", "1455", "912", "Hampden County - Department of Revenue", "Y", "", "", "", "", "", "50 State St", "", "Springfield", "", "01103", "", "Springfield", "42.09961059999999832825778867118060588836669921875", "-72.5888732300000043551335693337023258209228515625", "6", "DOR", "S", "", "", "SPFDMAJANAC", "R", "" ]
+, [ 161, "geo_rujc-agwg-1.161", null, null, null, null, null, null, "1008", "1377", "834", "DOR/CSE Western Region - Springfield", "Y", "", "", "", "", "", "1 Federal St", "Building 103-2", "Springfield", "", "01105", "", "Springfield", "42.10902955000000247309799306094646453857421875", "-72.5758028700000039634687709622085094451904296875", "6", "Department of Revenue", "S", "", "Y x", "SPFDMAATNAC", "R", "ITD" ]
+, [ 162, "geo_rujc-agwg-1.162", null, null, null, null, null, null, "1011", "1379", "839", "DSS East Springfield/VanWart Centre", "Y", "", "", "", "", "", "112 Industry Ave", "", "Springfield", "", "01104", "", "Springfield", "42.1411346000000008871211321093142032623291015625", "-72.543134949999995342295733280479907989501953125", "6", "Department of Children & Families", "S", "", "", "SPFDMACQNAA", "G", "EOHHS" ]
+, [ 163, "geo_rujc-agwg-1.163", null, null, null, null, null, null, "976", "1384", "852", "DSS Springfield Area", "Y", "", "", "", "", "", "140 High St", "", "Springfield", "", "01105", "", "Springfield", "42.10539218000000261099557974375784397125244140625", "-72.5796436800000037692370824515819549560546875", "6", "Department of Children & Families", "S", "", "", "SPFDMADINAA", "G", "EOHHS" ]
+, [ 164, "geo_rujc-agwg-1.164", null, null, null, null, null, null, "1022", "1387", "957", "DTA Springfield North", "Y", "", "", "", "", "", "95 Liberty St", "", "Springfield", "", "01104", "", "Springfield", "42.10727971000000025014742277562618255615234375", "-72.5944026500000063606421463191509246826171875", "6", "Department of Transitional Assistance", "S", "", "", "SPFDMAPXNAC", "G", "EOHHS" ]
+, [ 165, "geo_rujc-agwg-1.165", null, null, null, null, null, null, "943", "1322", "902", "CAD - Springfield Office", "Y", "", "", "", "", "", "436 Dwight St", "Room 220", "Springfield", "", "01103", "", "Springfield", "42.10611767000000327243469655513763427734375", "-72.5923955100000029005968826822936534881591796875", "6", "Massachusetts Commission Against Discrimination", "S", "", "", "SPFDMAIRNAA", "G", "ITD" ]
+, [ 166, "geo_rujc-agwg-1.166", null, null, null, null, null, null, "1913", "1324", "1548", "Central Fire Alarm Building", "N", "", "", "", "", "", "1535 ROOSEVELT AVE.", "", "Springfield", "", "01109", "", "Springfield", "42.12329601999999795225448906421661376953125", "-72.5482661500000034493496059440076351165771484375", "4", "Fire Station", "M", "", "", "SPFDMARVNAC", "R", "" ]
+, [ 167, "geo_rujc-agwg-1.167", null, null, null, null, null, null, "1003", "1373", "902", "DMR Springfield Office", "Y", "", "", "", "", "", "436 Dwight St", "", "Springfield", "", "01103", "", "Springfield", "42.10611767000000327243469655513763427734375", "-72.5923955100000029005968826822936534881591796875", "6", "Department of Developmental Services", "S", "", "", "SPFDMAIRNAF", "G", "EOHHS" ]
+, [ 168, "geo_rujc-agwg-1.168", null, null, null, null, null, null, "979", "1393", "852", "Department of Mental Health", "Y", "", "", "", "", "", "140 High St", "", "Springfield", "", "01105", "", "Springfield", "42.10539218000000261099557974375784397125244140625", "-72.5796436800000037692370824515819549560546875", "6", "Department of Mental Health", "S", "", "", "SPFDMADINAC", "G", "EOHHS" ]
+, [ 169, "geo_rujc-agwg-1.169", null, null, null, null, null, null, "1023", "1397", "880", "Department of Transitional Assistance Springfield South", "Y", "", "", "", "", "", "310 State St", "", "Springfield", "", "01105", "", "Springfield", "42.10548277000000183534211828373372554779052734375", "-72.5819298400000008086863090284168720245361328125", "6", "Department of Transitional Assistance", "S", "", "", "SPFDMABYNAA", "G", "EOHHS" ]
+, [ 170, "geo_rujc-agwg-1.170", null, null, null, null, null, null, "984", "1399", "954", "Department of Workforce Development", "Y", "", "", "", "", "", "88 Industry Ave", "", "Springfield", "", "01104", "", "Springfield", "42.14171380999999882988049648702144622802734375", "-72.5440514900000010811709216795861721038818359375", "6", "Department of Workforce Development", "S", "", "", "SPFDMAAPNAA", "R", "ITD" ]
+, [ 171, "geo_rujc-agwg-1.171", null, null, null, null, null, null, "987", "1404", "902", "Division of Banks - Springfield Field Office", "Y", "", "", "", "", "", "436 Dwight St", "1st Floor", "Springfield", "", "01103", "", "Springfield", "42.10611767000000327243469655513763427734375", "-72.5923955100000029005968826822936534881591796875", "6", "Division of Banks", "S", "", "", "SPFDMAIRNAH", "R", "ITD" ]
+, [ 172, "geo_rujc-agwg-1.172", null, null, null, null, null, null, "988", "1405", "859", "Division of Occupational Safety - Springfield Office", "Y", "", "", "", "", "", "165 Liberty St", "", "Springfield", "", "01104", "", "Springfield", "42.1087353799999988268609740771353244781494140625", "-72.591870650000004161483957432210445404052734375", "6", "Department of Labor", "S", "", "", "SPFDMAGENAA", "R", "ITD" ]
+, [ 209, "geo_rujc-agwg-1.209", null, null, null, null, null, null, "2354", "2226", "1925", "Transplantation Outpt Svcs", "N", "", "", "", "", "", "300 Birnie Ave", "", "Springfield", "MA", "01199", "", "Springfield", "42.1059990199999987225965014658868312835693359375", "-72.597702150000003484819899313151836395263671875", "3", "", "P", "", "", "", "", "" ]
+, [ 173, "geo_rujc-agwg-1.173", null, null, null, null, null, null, "989", "1406", "902", "Division of Professional Licensure - Springfield", "Y", "", "", "", "", "", "436 Dwight St", "Room 210", "Springfield", "", "01103", "", "Springfield", "42.10611767000000327243469655513763427734375", "-72.5923955100000029005968826822936534881591796875", "6", "Division of Professional Licensure", "S", "", "", "SPFDMAIRNAO", "R", "ITD" ]
+, [ 174, "geo_rujc-agwg-1.174", null, null, null, null, null, null, "1028", "1407", "957", "EEC - Western MA", "Y", "", "", "", "", "", "95 Liberty St", "Suite 1124", "Springfield", "", "01104", "", "Springfield", "42.10727971000000025014742277562618255615234375", "-72.5944026500000063606421463191509246826171875", "6", "Department of Early Education and Care", "S", "", "", "SPFDMAPXNAA", "R", "ITD" ]
+, [ 175, "geo_rujc-agwg-1.175", null, null, null, null, null, null, "2341", "1681", "1915", "Gallant Jody A", "N", "", "", "", "", "", "1334 Liberty St", "", "Springfield", "MA", "01104", "", "Springfield", "42.12730001999999984718670020811259746551513671875", "-72.577103149999999232022673822939395904541015625", "3", "", "P", "", "", "", "", "" ]
+, [ 176, "geo_rujc-agwg-1.176", null, null, null, null, null, null, "2571", "1686", "2103", "Grand Army Hall - GAR", "N", "", "", "", "", "", "68 Court St", "", "Springfield", "", "01103", "", "Springfield", "42.10092683999999962907168082892894744873046875", "-72.589704710000006571135600097477436065673828125", "6", "City Hall", "M", "", "", "SPFDMAGNNAA", "", "" ]
+, [ 177, "geo_rujc-agwg-1.177", null, null, null, null, null, null, "2372", "1687", "1937", "Grayson House", "N", "", "", "", "", "", "942 Grayson Dr", "", "Springfield", "MA", "01119", "", "Springfield", "42.12275301999999754798409412615001201629638671875", "-72.5198752499999983456291374750435352325439453125", "3", "", "P", "", "", "", "", "" ]
+, [ 178, "geo_rujc-agwg-1.178", null, null, null, null, null, null, "1118", "1519", "876", "MHD Springfield Depot-D2", "W", "", "", "", "", "", "29 Magaziner Pl", "", "Springfield", "", "01104", "", "Springfield", "42.10808381999999738809492555446922779083251953125", "-72.6011896499999949128323351033031940460205078125", "6", "Transportation", "M", "", "", "SPFDMAGKNAA", "R", "" ]
+, [ 179, "geo_rujc-agwg-1.179", null, null, null, null, null, null, "832", "1525", "834", "Massachusetts Rehabilitation Commission Springfield", "Y", "", "", "", "", "", "1 Federal St", "", "Springfield", "", "01105", "", "Springfield", "42.10902955000000247309799306094646453857421875", "-72.5758028700000039634687709622085094451904296875", "3", "Massachusetts Rehabilitation Commission", "S", "", "Y", "SPFDMAATNAE", "G", "EOHHS" ]
+, [ 180, "geo_rujc-agwg-1.180", null, null, null, null, null, null, "1107", "1530", "902", "MassDEP: Western Region", "Y", "", "", "", "", "", "436 Dwight St", "", "Springfield", "", "01103", "", "Springfield", "42.10611767000000327243469655513763427734375", "-72.5923955100000029005968826822936534881591796875", "6", "Department of Environmental Protection", "S", "", "", "SPFDMAIRNAK", "G", "ITD" ]
+, [ 181, "geo_rujc-agwg-1.181", null, null, null, null, null, null, "1915", "1584", "1545", "Springfield Fire Training Center", "N", "", "", "", "", "", "100 GROCHMAL AVE", "", "Springfield", "", "01151", "", "Springfield", "42.15627002000000089765308075584471225738525390625", "-72.5340401499999956058672978542745113372802734375", "4", "Fire Station", "M", "", "", "", "", "" ]
+, [ 182, "geo_rujc-agwg-1.182", null, null, null, null, null, null, "888", "1589", "897", "Favorite Healthcare Staffing, Inc", "N", "", "", "", "", "", "41 Taylor St", "Suite 201", "Springfield", "", "01103", "", "Springfield", "42.10506561999999775025571580044925212860107421875", "-72.5924990500000006932168616913259029388427734375", "3", "Temporary Nursing Agencies", "P", "", "", "", "", "" ]
+, [ 183, "geo_rujc-agwg-1.183", null, null, null, null, null, null, "1070", "1469", "892", "Hampden/Berkshire/Franklin/Hampshire County - Western Housing Court", "Y", "", "", "", "", "", "37 Elm St", "", "Springfield", "", "01103", "", "Springfield", "42.10022691000000349959009326994419097900390625", "-72.5885741000000024314431357197463512420654296875", "6", "Court", "S", "", "", "SPFEMA62NAA", "R", "TRC" ]
+, [ 184, "geo_rujc-agwg-1.184", null, null, null, null, null, null, "1099", "1486", "902", "Lieutenant Governor's Office - Sprinfield", "Y", "", "", "", "", "", "436 Dwight St", "Suite 300", "Springfield", "", "01103", "", "Springfield", "42.10611767000000327243469655513763427734375", "-72.5923955100000029005968826822936534881591796875", "6", "Lieutenant Governor", "S", "", "", "SPFDMAIRNAR", "R", "" ]
+, [ 185, "geo_rujc-agwg-1.185", null, null, null, null, null, null, "1108", "1512", "902", "MCB Springfield Reg. 1", "Y", "", "", "", "", "", "436 Dwight St", "Room 109", "Springfield", "", "01103", "", "Springfield", "42.10611767000000327243469655513763427734375", "-72.5923955100000029005968826822936534881591796875", "6", "Massachusetts Commission for the Blind", "S", "", "", "SPFDMAIRNAJ", "G", "EOHHS" ]
+, [ 186, "geo_rujc-agwg-1.186", null, null, null, null, null, null, "1109", "1513", "902", "MCDHH Springfield", "Y", "", "", "", "", "", "436 Dwight St", "Suite 204", "Springfield", "", "01103", "", "Springfield", "42.10611767000000327243469655513763427734375", "-72.5923955100000029005968826822936534881591796875", "6", "Massachusetts Commission for the Deaf and Hard of Hearing", "S", "", "", "SPFDMAIRNAM", "G", "EOHHS" ]
+, [ 187, "geo_rujc-agwg-1.187", null, null, null, null, null, null, "2425", "1670", "1982", "Kathleen Thornton School", "N", "", "", "", "", "", "91 Old Acre Rd", "", "Springfield", "", "01129", "", "Springfield", "42.11356701999999785357431392185389995574951171875", "-72.49471314999999549399944953620433807373046875", "1", "K12", "M", "", "", "", "", "" ]
+, [ 188, "geo_rujc-agwg-1.188", null, null, null, null, null, null, "816", "1671", "925", "Key Program, Inc., The", "N", "", "", "", "", "", "576 State St", "", "Springfield", "", "01109", "", "Springfield", "42.11020012000000178886693902313709259033203125", "-72.5729001499999952784492052160203456878662109375", "3", "Clinics", "P", "", "", "", "", "" ]
+, [ 189, "geo_rujc-agwg-1.189", null, null, null, null, null, null, "2345", "1717", "855", "Healthtrac", "N", "", "", "", "", "", "1441 Main St", "", "Springfield", "MA", "01103", "", "Springfield", "42.10309337000000340367478202097117900848388671875", "-72.5905414000000064334017224609851837158203125", "3", "", "P", "", "", "", "", "" ]
+, [ 190, "geo_rujc-agwg-1.190", null, null, null, null, null, null, "2375", "1697", "1940", "Hampden House", "N", "", "", "", "", "", "190 Kendall St", "", "Springfield", "", "01104", "", "Springfield", "42.12145201999999954978193272836506366729736328125", "-72.579376150000001644002622924745082855224609375", "7", "", "P", "", "", "", "", "" ]
+, [ 191, "geo_rujc-agwg-1.191", null, null, null, null, null, null, "2365", "1569", "1931", "Community Care Mental Health Ctr", "N", "", "", "", "", "", "417 Liberty St", "", "Springfield", "", "01104", "", "Springfield", "42.11530001999999939243934932164847850799560546875", "-72.5843001500000042369720176793634891510009765625", "3", "", "P", "", "", "", "", "" ]
+, [ 192, "geo_rujc-agwg-1.192", null, null, null, null, null, null, "2367", "1571", "1933", "Community Re-Entry Program", "N", "", "", "", "", "", "622 State St", "", "Springfield", "", "01109", "", "Springfield", "42.11729801999999978079358697868883609771728515625", "-72.549500150000000076033757068216800689697265625", "3", "", "P", "", "", "", "", "" ]
+, [ 193, "geo_rujc-agwg-1.193", null, null, null, null, null, null, "784", "1572", "860", "Community Svcs Institute", "N", "", "", "", "", "", "1695 Main St", "Suite 300 & 400", "Springfield", "", "01103", "", "Springfield", "42.1046623200000027509304345585405826568603515625", "-72.5946753500000028225258574821054935455322265625", "3", "Clinics", "P", "", "", "SPFDMAGJNAA", "", "" ]
+, [ 194, "geo_rujc-agwg-1.194", null, null, null, null, null, null, "2376", "1579", "1941", "Ellen Rice Rest Home, Inc.", "N", "", "", "", "", "", "38 Warner St", "", "Springfield", "", "01108", "", "Springfield", "42.08414812000000182479197974316775798797607421875", "-72.575821149999995895996107719838619232177734375", "7", "", "P", "", "", "", "", "" ]
+, [ 195, "geo_rujc-agwg-1.195", null, null, null, null, null, null, "870", "2242", "914", "Valley Psychiatric Service Inc", "N", "", "", "", "", "", "511 E Columbus Ave", "Fl 2-D Fl 1-B", "Springfield", "MA", "01105", "", "Springfield", "42.089569920000002412052708677947521209716796875", "-72.58098845000000665095285512506961822509765625", "3", "Clinics", "P", "", "", "", "", "" ]
+, [ 196, "geo_rujc-agwg-1.196", null, null, null, null, null, null, "815", "1666", "933", "International Health Solutions", "N", "", "", "", "", "", "604 Cottage St", "", "Springfield", "", "01104", "", "Springfield", "42.13970001999999936970198177732527256011962890625", "-72.539300150000002531669451855123043060302734375", "3", "Home Health Agency", "P", "", "", "", "", "" ]
+, [ 197, "geo_rujc-agwg-1.197", null, null, null, null, null, null, "1212", "1916", "902", "Springfield State Office Dwight St", "Y", "", "", "", "", "", "436 Dwight St", "", "Springfield", "", "01103", "", "Springfield", "42.10611767000000327243469655513763427734375", "-72.5923955100000029005968826822936534881591796875", "6", "Division of Capital Asset Management", "S", "", "", "SPFDMAIRNAG", "G", "ITD" ]
+, [ 198, "geo_rujc-agwg-1.198", null, null, null, null, null, null, "900", "2197", "951", "St Luke's Home", "N", "", "", "", "", "", "85 Spring St", "", "Springfield", "", "01105", "", "Springfield", "42.10680002000000143880242831073701381683349609375", "-72.5847001500000033047399483621120452880859375", "3", "Rest Home - Conventional", "P", "", "", "", "", "" ]
+, [ 199, "geo_rujc-agwg-1.199", null, null, null, null, null, null, "318", "2200", "923", "Hampden State Police Detective Unit", "N", "", "", "", "", "", "55 State St", "", "Springfield", "", "01103", "", "Springfield", "42.099499919999999519859557040035724639892578125", "-72.5880000500000051033566705882549285888671875", "4", "Law Enforcement", "S", "", "", "SPFDMATFNAA", "", "" ]
+, [ 200, "geo_rujc-agwg-1.200", null, null, null, null, null, null, "2338", "1610", "1914", "Center For Psych/Fam Service, Inc.", "N", "", "", "", "", "", "130 Maple St", "", "Springfield", "", "01103", "", "Springfield", "42.102402019999999538413248956203460693359375", "-72.591400149999998347993823699653148651123046875", "3", "", "P", "", "", "", "", "" ]
+, [ 201, "geo_rujc-agwg-1.201", null, null, null, null, null, null, "583", "1611", "962", "Curtis Blake School", "X", "", "", "", "", "", "979 Dickinson St", "", "Springfield", "", "01109", "", "Springfield", "42.07290001999999873305569053627550601959228515625", "-72.5500000499999941894202493131160736083984375", "1", "K12", "M", "", "", "", "P", "" ]
+, [ 202, "geo_rujc-agwg-1.202", null, null, null, null, null, null, "2356", "1614", "884", "D'Amour Center For Cancer Care", "N", "", "", "", "", "", "3300 Main St", "", "Springfield", "", "01107", "", "Springfield", "42.12030002000000195039319805800914764404296875", "-72.6054001499999941415808279998600482940673828125", "3", "", "P", "", "", "", "", "" ]
+, [ 203, "geo_rujc-agwg-1.203", null, null, null, null, null, null, "995", "1615", "880", "DMH Springfield LSS", "N", "", "", "", "", "", "310 State St", "", "Springfield", "", "01105", "", "Springfield", "42.10548277000000183534211828373372554779052734375", "-72.5819298400000008086863090284168720245361328125", "6", "Department of Mental Health", "S", "", "", "", "", "" ]
+, [ 204, "geo_rujc-agwg-1.204", null, null, null, null, null, null, "2379", "1623", "1944", "DYS Western Regional Office", "N", "", "", "", "", "", "280 Tinkham Rd", "", "Springfield", "", "01129", "", "Springfield", "42.10889542000000318466845783405005931854248046875", "-72.482206950000005463152774609625339508056640625", "6", "", "S", "", "", "", "", "" ]
+, [ 205, "geo_rujc-agwg-1.205", null, null, null, null, null, null, "2333", "1637", "1910", "Hampden Cnty Vn & Home Care Srvs Inc", "N", "", "", "", "", "", "110 Fort Pleasant Ave", "", "Springfield", "MA", "01108", "", "Springfield", "42.0830000200000000631916918791830539703369140625", "-72.5557021500000018932041712105274200439453125", "3", "", "P", "", "", "", "", "" ]
+, [ 206, "geo_rujc-agwg-1.206", null, null, null, null, null, null, "1029", "1641", "885", "EHS Springfield", "N", "", "", "", "", "", "333 Bridge St", "", "Springfield", "", "01103", "", "Springfield", "42.104498419999998759521986357867717742919921875", "-72.5904606499999971447323332540690898895263671875", "6", "Executive Office of Health and Human Services", "S", "", "", "SPFDMAYFNAA", "", "" ]
+, [ 207, "geo_rujc-agwg-1.207", null, null, null, null, null, null, "789", "1646", "901", "East Springfield Dialysis Center", "N", "", "", "", "", "", "435 Cottage St", "", "Springfield", "", "01103", "", "Springfield", "42.14382961999999821500750840641558170318603515625", "-72.5371255499999989524440024979412555694580078125", "3", "ESRD Clinic", "P", "", "", "SPFDMATONAA", "", "" ]
+, [ 208, "geo_rujc-agwg-1.208", null, null, null, null, null, null, "1227", "1935", "855", "Trial Court", "N", "", "", "", "", "", "1441 Main St", "", "Springfield", "", "01103", "", "Springfield", "42.10345800999999710256815887987613677978515625", "-72.590573669999997719060047529637813568115234375", "6", "Court", "S", "", "", "SPFDMAMANAA", "R", "" ]
+, [ 210, "geo_rujc-agwg-1.210", null, null, null, null, null, null, "315", "2234", "879", "US Marshal - Springfield", "N", "", "", "", "", "", "300 State St", "ROOM 106", "Springfield", "", "01105", "", "Springfield", "42.105277819999997745981090702116489410400390625", "-72.5830121000000048070432967506349086761474609375", "4", "CHSB - Federal", "F", "", "", "SPFEMAHPNAA", "", "" ]
+, [ 211, "geo_rujc-agwg-1.211", null, null, null, null, null, null, "2364", "1723", "898", "High School of Commerce Health Center", "N", "", "", "", "", "", "415 State St", "", "Springfield", "MA", "01105", "", "Springfield", "42.10691091999999713380020693875849246978759765625", "-72.5789340500000008660208550281822681427001953125", "3", "High School", "P", "", "", "", "", "" ]
+, [ 212, "geo_rujc-agwg-1.212", null, null, null, null, null, null, "2614", "1943", "2154", "Second Data Center, Room 009", "Y", "", "", "", "", "", "53 Elliot St", "", "Springfield", "", "01105", "", "Springfield", "42.10527803000000091060428530909121036529541015625", "-72.5847067600000031006857170723378658294677734375", "6", "Information Technology Division", "S", "", "", "SPFEMAIMNAC", "G", "" ]
+, [ 213, "geo_rujc-agwg-1.213", null, null, null, null, null, null, "978", "1983", "902", "Department of Environmental Protection", "Y", "", "", "", "", "", "436 Dwight St", "", "Springfield", "", "01103", "", "Springfield", "42.10611767000000327243469655513763427734375", "-72.5923955100000029005968826822936534881591796875", "6", "Department of Environmental Protection", "S", "", "", "SPFDMAIRNAL", "R", "ITD" ]
+, [ 214, "geo_rujc-agwg-1.214", null, null, null, null, null, null, "723", "2259", "915", "Shriners Hospital for Children Medical Library", "N", "", "", "", "", "", "516 Carew St", "", "Springfield", "", "01104", "", "Springfield", "42.12140002000000293946868623606860637664794921875", "-72.592100149999993163874023593962192535400390625", "2", "Library", "M", "", "", "SPFDMALANAC", "", "" ]
+, [ 215, "geo_rujc-agwg-1.215", null, null, null, null, null, null, "2339", "1736", "1914", "Lions Orthoptic Clinic", "N", "", "", "", "", "", "130 Maple St", "", "Springfield", "", "01103", "", "Springfield", "42.102402019999999538413248956203460693359375", "-72.591400149999998347993823699653148651123046875", "3", "", "P", "", "", "", "", "" ]
+, [ 216, "geo_rujc-agwg-1.216", null, null, null, null, null, null, "2374", "1740", "1939", "Lord Nathan Rest Home Inc", "N", "", "", "", "", "", "175 Bowdoin St", "", "Springfield", "", "01109", "", "Springfield", "42.11528802000000126781742437742650508880615234375", "-72.5773321500000037076461012475192546844482421875", "7", "", "P", "", "", "", "", "" ]
+, [ 217, "geo_rujc-agwg-1.217", null, null, null, null, null, null, "1100", "1741", "863", "Lottery Commission", "N", "", "", "", "", "", "20 Fort St", "", "Springfield", "", "01103", "", "Springfield", "42.1034744199999977354309521615505218505859375", "-72.5938365500000060137608670629560947418212890625", "6", "Treasurer and Receiver General", "S", "", "", "", "", "" ]
+, [ 218, "geo_rujc-agwg-1.218", null, null, null, null, null, null, "837", "1750", "878", "Mva Center For Rehabilitation (The)", "N", "", "", "", "", "", "300 Stafford St", "Suite 360", "Springfield", "", "01104", "", "Springfield", "42.11350001999999648205630364827811717987060546875", "-72.59400014999999939391273073852062225341796875", "3", "Clinics", "P", "", "", "", "", "" ]
+, [ 219, "geo_rujc-agwg-1.219", null, null, null, null, null, null, "305", "1955", "833", "Western MA Regional Police Academy", "Y", "", "", "", "", "", "1 Armory Sq", "", "Springfield", "", "01105", "", "Springfield", "42.107129909999997607883415184915065765380859375", "-72.5799674099999947429751046001911163330078125", "4", "Law Enforcement", "S", "", "", "SPFDMAGHNAA", "R", "EOPSS" ]
+, [ 220, "geo_rujc-agwg-1.220", null, null, null, null, null, null, "2330", "2261", "1907", "Springfield College Babson Library", "N", "", "", "", "", "", "263 Alden St", "", "Springfield", "", "01109", "", "Springfield", "42.10161518000000313577402266673743724822998046875", "-72.5567748600000044234548113308846950531005859375", "2", "Library", "M", "", "", "", "", "" ]
+, [ 221, "geo_rujc-agwg-1.221", null, null, null, null, null, null, "876", "2270", "865", "Western Mass Kidney Center", "N", "", "", "", "", "", "2000 Main St", "", "Springfield", "MA", "01102", "", "Springfield", "42.10680002000000143880242831073701381683349609375", "-72.5992001500000014857505448162555694580078125", "3", "ESRD Clinic", "P", "", "", "", "", "" ]
+, [ 222, "geo_rujc-agwg-1.222", null, null, null, null, null, null, "2389", "2271", "1905", "Western New England College Campus Police Department", "N", "", "", "", "", "", "1215 Wilbraham Rd", "", "Springfield", "", "01119", "", "Springfield", "42.11512762000000265061316895298659801483154296875", "-72.520268490000006522677722387015819549560546875", "4", "", "M", "", "", "", "", "" ]
+, [ 223, "geo_rujc-agwg-1.223", null, null, null, null, null, null, "839", "1757", "864", "No Tooth Left Behind Dental Clinic", "X", "", "", "", "", "", "200 Birnie Ave", "German Gerena Sch", "Springfield", "", "01107", "", "Springfield", "42.11660001999999991539880284108221530914306640625", "-72.6101001499999938459950499236583709716796875", "3", "Clinics", "P", "", "", "SPFDMAZMNAC", "P", "" ]
+, [ 224, "geo_rujc-agwg-1.224", null, null, null, null, null, null, "2349", "1772", "1920", "Northgate Medical Pc", "N", "", "", "", "", "", "1985 Main St", "", "Springfield", "", "01103", "", "Springfield", "42.102402019999999538413248956203460693359375", "-72.591400149999998347993823699653148651123046875", "3", "", "P", "", "", "", "", "" ]
+, [ 225, "geo_rujc-agwg-1.225", null, null, null, null, null, null, "316", "1846", "902", "Parole Office/RRC - Region 5", "Y", "", "", "", "", "", "436 Dwight St", "", "Springfield", "", "01103", "", "Springfield", "42.10611767000000327243469655513763427734375", "-72.5923955100000029005968826822936534881591796875", "4", "Parole Board", "S", "", "", "SPFDMAIRNAQ", "R", "EOPSS" ]
+, [ 226, "geo_rujc-agwg-1.226", null, null, null, null, null, null, "835", "1791", "869", "MSPCC Family Counseling Center", "N", "", "", "", "", "", "235 Chestnut St", "1st Fl", "Springfield", "", "01103", "", "Springfield", "42.10842181999999667141310055740177631378173828125", "-72.5922849500000069156158133409917354583740234375", "3", "Satellite of Clinic", "S", "", "", "SPFDMACZNAA", "", "" ]
+, [ 227, "geo_rujc-agwg-1.227", null, null, null, null, null, null, "2373", "1793", "1938", "Maple Hill Rest Home, Inc.", "N", "", "", "", "", "", "156 Mill St", "", "Springfield", "", "01108", "", "Springfield", "42.0931430199999994101744960062205791473388671875", "-72.5743641499999938559994916431605815887451171875", "7", "", "P", "", "", "", "", "" ]
+, [ 228, "geo_rujc-agwg-1.228", null, null, null, null, null, null, "2362", "2007", "1929", "Mercy Care Center of Springfield", "N", "", "", "", "", "", "370 Pine St", "", "Springfield", "MA", "01105", "", "Springfield", "42.09312802000000175439708982594311237335205078125", "-72.574829149999999344800016842782497406005859375", "3", "", "P", "", "", "", "", "" ]
+, [ 229, "geo_rujc-agwg-1.229", null, null, null, null, null, null, "2426", "2010", "1982", "Mill Pond School", "N", "", "", "", "", "", "91 Old Acre Rd", "", "Springfield", "", "01129", "", "Springfield", "42.11356701999999785357431392185389995574951171875", "-72.49471314999999549399944953620433807373046875", "1", "K12", "M", "", "", "", "", "" ]
+, [ 230, "geo_rujc-agwg-1.230", null, null, null, null, null, null, "695", "2317", "873", "Mercy Medical Center Gilman Health Sciences Library", "Y", "", "", "", "", "", "271 Carew St", "P.O. Box 9012", "Springfield", "", "01104", "", "Springfield", "42.115057129999996732294675894081592559814453125", "-72.5935231499999957804902805946767330169677734375", "2", "Library", "M", "", "", "SPFDMAJFNAC", "R", "" ]
+, [ 231, "geo_rujc-agwg-1.231", null, null, null, null, null, null, "2368", "1795", "1934", "Mason-Wright Retirement Community", "N", "", "", "", "", "", "74 Walnut St", "", "Springfield", "MA", "01105", "", "Springfield", "42.09629801999999898498572292737662792205810546875", "-72.5790021499999937759639578871428966522216796875", "3", "", "P", "", "", "", "", "" ]
+, [ 232, "geo_rujc-agwg-1.232", null, null, null, null, null, null, "1106", "1800", "835", "Massachusetts Teachers' Retirement System - Western Regional Office", "N", "", "", "", "", "", "101 State St", "Suite 210", "Springfield", "", "01103", "", "Springfield", "42.10069641999999845438651391305029392242431640625", "-72.5873123500000048125002649612724781036376953125", "6", "Massachusetts Teachers' Retirement System", "S", "", "", "SPFDMABVNAA", "", "" ]
+, [ 233, "geo_rujc-agwg-1.233", null, null, null, null, null, null, "823", "1803", "922", "Mdsine Llc", "N", "", "", "", "", "", "55 St George Rd", "", "Springfield", "MA", "01104", "", "Springfield", "42.10969982000000300104147754609584808349609375", "-72.603100049999994780591805465519428253173828125", "3", "Ambulatory Surgical Center (Certified Only)", "P", "", "", "", "", "" ]
+, [ 234, "geo_rujc-agwg-1.234", null, null, null, null, null, null, "825", "1806", "873", "Mercy Medical Center - Springfield Campus", "Y", "271", "", "Carew", "", "Street", "271 Carew Street", "", "Springfield", "", "01104", "", "Springfield", "42.115057129999996732294675894081592559814453125", "-72.5935231499999957804902805946767330169677734375", "3", "Lab", "P", "", "", "SPFDMAJFNAA", "R", "" ]
+, [ 235, "geo_rujc-agwg-1.235", null, null, null, null, null, null, "627", "2320", "946", "Baystate Medical Center Health Sciences Library", "Y", "", "", "", "", "", "759 Chestnut St", "", "Springfield", "", "01107", "", "Springfield", "42.1197752300000018976788851432502269744873046875", "-72.6034794499999946992829791270196437835693359375", "2", "Library", "M", "", "", "SPFDMADJNAA", "R", "" ]
+, [ 236, "geo_rujc-agwg-1.236", null, null, null, null, null, null, "1919", "1828", "1546", "Sixteen Acres Fire Department, Station #12", "Y", "1265", "", "", "", "", "1265 PARKER ST.", "", "Springfield", "", "01129", "", "Springfield", "42.11386102000000164480297826230525970458984375", "-72.4979481499999991456206771545112133026123046875", "4", "Fire Station", "M", "", "", "SPFDMAMHNAA", "G", "" ]
+, [ 237, "geo_rujc-agwg-1.237", null, null, null, null, null, null, "1208", "1829", "912", "SPRINGFIELD District Court Office", "Y", "", "", "", "", "", "50 State St", "", "Springfield", "", "01103", "", "Springfield", "42.09961059999999832825778867118060588836669921875", "-72.5888732300000043551335693337023258209228515625", "6", "Court", "S", "", "", "SPFDMAJANAE", "G", "TRC" ]
+, [ 238, "geo_rujc-agwg-1.238", null, null, null, null, null, null, "1923", "1830", "1554", "Springfield Police Academy", "Y", "", "", "", "", "", "50 EAST ST.", "", "Springfield", "", "01104", "", "Springfield", "42.14746801999999803456375957466661930084228515625", "-72.5618221499999975776518112979829311370849609375", "4", "Law Enforcement", "M", "", "", "SPFDMAMYNAA", "G", "EOPSS" ]
+, [ 239, "geo_rujc-agwg-1.239", null, null, null, null, null, null, "836", "2031", "959", "Multicultural Com Sv of the Pioneer", "N", "", "", "", "", "", "96 Industry Ave", "Suite 1", "Springfield", "", "01104", "", "Springfield", "42.14165761999999659792592865414917469024658203125", "-72.543104650000003630339051596820354461669921875", "3", "Home Health Agency", "P", "", "", "", "", "" ]
+, [ 240, "geo_rujc-agwg-1.240", null, null, null, null, null, null, "2337", "2034", "1913", "River Valley Counseling Center Inc", "N", "", "", "", "", "", "120 Maple St", "", "Springfield", "", "01103", "", "Springfield", "42.13290002000000100679244496859610080718994140625", "-72.7492981500000013284079614095389842987060546875", "3", "", "P", "", "", "", "", "" ]
+, [ 241, "geo_rujc-agwg-1.241", null, null, null, null, null, null, "1443", "2039", "848", "Roger L. Putnam Vocational Technical Academy", "X", "1300", "", "", "", "", "1300 State Street", "", "Springfield", "", "01109", "", "Springfield", "42.11940002000000049520167522132396697998046875", "-72.54960015000000339568941853940486907958984375", "1", "High School", "M", "", "", "SPFDMAQCNAA", "P", "" ]
+, [ 242, "geo_rujc-agwg-1.242", null, null, null, null, null, null, "1193", "1835", "917", "Second Data Center, Room 004", "Y", "", "", "", "", "", "53 Elliot St", "", "Springfield", "", "01105", "", "Springfield", "42.1052530500000017354977899231016635894775390625", "-72.5847367399999967574331094510853290557861328125", "6", "Information Technology Division", "S", "", "", "SPFEMAIMNAA", "G", "ITD" ]
+, [ 243, "geo_rujc-agwg-1.243", null, null, null, null, null, null, "1194", "1836", "902", "Secretary of the Commonwealth - Western District Office", "Y", "", "", "", "", "", "436 Dwight St", "Room 102", "Springfield", "", "01103", "", "Springfield", "42.10611767000000327243469655513763427734375", "-72.5923955100000029005968826822936534881591796875", "6", "Secretary of the Commonwealth", "S", "", "", "SPFDMAIRN02", "R", "" ]
+, [ 244, "geo_rujc-agwg-1.244", null, null, null, null, null, null, "1903", "2050", "1555", "SPRINGFIELD DEPT. OF PUBLIC WORKS", "N", "", "", "", "", "", "70 TAPLEY ST.", "", "Springfield", "", "01109", "", "Springfield", "42.1267000200000012455348041839897632598876953125", "-72.564767149999994444442563690245151519775390625", "6", "", "M", "", "", "", "", "" ]
+, [ 245, "geo_rujc-agwg-1.245", null, null, null, null, null, null, "1904", "2051", "1556", "SPRINGFIELD WATER AND SEWER DEPT.", "N", "", "", "", "", "", "71 COLTON ST", "", "Springfield", "", "01109", "", "Springfield", "42.10943791999999774589014123193919658660888671875", "-72.562289149999998016937752254307270050048828125", "6", "", "M", "", "", "", "", "" ]
+, [ 246, "geo_rujc-agwg-1.246", null, null, null, null, null, null, "2573", "2053", "2105", "School Central Office", "N", "", "", "", "", "", "195 State St", "", "Springfield", "", "01102", "", "Springfield", "42.1024803600000012693271855823695659637451171875", "-72.5851781100000010837902664206922054290771484375", "5B", "Education", "M", "", "", "SPFDMAWPNAA", "", "" ]
+, [ 247, "geo_rujc-agwg-1.247", null, null, null, null, null, null, "2335", "2059", "1912", "Novacare Rehabilitation", "N", "", "", "", "", "", "1160 Dickinson St", "", "Springfield", "MA", "01108", "", "Springfield", "42.0830000200000000631916918791830539703369140625", "-72.5557021500000018932041712105274200439453125", "3", "", "P", "", "", "", "", "" ]
+, [ 248, "geo_rujc-agwg-1.248", null, null, null, null, null, null, "2359", "2061", "886", "Novacare Rehabilitation", "N", "", "", "", "", "", "3550 Main St", "", "Springfield", "", "01199", "", "Springfield", "42.12710202000000236921550822444260120391845703125", "-72.438797149999999192004906944930553436279296875", "3", "", "P", "", "", "", "", "" ]
+, [ 249, "geo_rujc-agwg-1.249", null, null, null, null, null, null, "2377", "2064", "1942", "Nurses Solutions Llc", "N", "", "", "", "", "", "96 Mooreland St", "", "Springfield", "", "01104", "", "Springfield", "42.12730001999999984718670020811259746551513671875", "-72.577103149999999232022673822939395904541015625", "3", "", "P", "", "", "", "", "" ]
+, [ 250, "geo_rujc-agwg-1.250", null, null, null, null, null, null, "1442", "1848", "931", "Pioneer Valley Planning Commission", "Y", "", "", "", "", "", "60 Congress St", "", "Springfield", "", "01109", "", "Springfield", "42.1080497100000030741284717805683612823486328125", "-72.5961279200000006994741852395236492156982421875", "6", "", "S", "", "", "SPFEMA85NAA", "G", "" ]
+, [ 251, "geo_rujc-agwg-1.251", null, null, null, null, null, null, "2371", "2174", "956", "Shumate Barbara E", "N", "", "", "", "", "", "91 School St", "", "Springfield", "MA", "01105", "", "Springfield", "42.09629801999999898498572292737662792205810546875", "-72.5790021499999937759639578871428966522216796875", "3", "", "P", "", "", "", "", "" ]
+, [ 252, "geo_rujc-agwg-1.252", null, null, null, null, null, null, "1922", "2074", "1551", "PARKS DEPT. ADMIN. BUILDING", "N", "", "", "", "", "", "200 TRAFTON RD.", "", "Springfield", "", "01108", "", "Springfield", "42.0815580200000027843998395837843418121337890625", "-72.561430150000006733534974046051502227783203125", "6", "", "M", "", "", "", "", "" ]
+, [ 253, "geo_rujc-agwg-1.253", null, null, null, null, null, null, "1921", "2075", "1552", "PARKS DEPT. FACILITY MANAGEMENT OPS.", "N", "", "", "", "", "", "233 ALLEN ST", "", "Springfield", "", "01108", "", "Springfield", "42.0958900199999987989940564148128032684326171875", "-72.555073149999998349812813103199005126953125", "6", "", "M", "", "", "", "", "" ]
+, [ 254, "geo_rujc-agwg-1.254", null, null, null, null, null, null, "851", "2091", "886", "Pioneer Valley Surgicenter Llc", "N", "", "", "", "", "", "3550 Main St", "Suite 103", "Springfield", "", "01199", "", "Springfield", "42.12601151999999871122781769372522830963134765625", "-72.6108671500000042442479752935469150543212890625", "3", "Ambulatory Surgical Center (Certified Only)", "P", "", "", "", "", "" ]
+, [ 255, "geo_rujc-agwg-1.255", null, null, null, null, null, null, "2357", "2094", "884", "Planned Parenthood Leag MA W Ma Center", "N", "", "", "", "", "", "3300 Main St", "", "Springfield", "", "01107", "", "Springfield", "42.12030002000000195039319805800914764404296875", "-72.6054001499999941415808279998600482940673828125", "3", "", "P", "", "", "", "", "" ]
+, [ 256, "geo_rujc-agwg-1.256", null, null, null, null, null, null, "1173", "1873", "912", "Registry of Deeds - Hampden", "Y", "", "", "", "", "", "50 State St", "", "Springfield", "", "01103", "", "Springfield", "42.09961059999999832825778867118060588836669921875", "-72.5888732300000043551335693337023258209228515625", "6", "Secretary of the Commonwealth", "S", "", "", "SPFDMAJANAH", "R", "" ]
+, [ 257, "geo_rujc-agwg-1.257", null, null, null, null, null, null, "1914", "2114", "844", "Raymond Sullivan Safety Complex #9", "X", "", "", "", "", "", "1212 CAREW ST", "", "Springfield", "", "01104", "", "Springfield", "42.13399992000000082725819083862006664276123046875", "-72.571700149999998075145413167774677276611328125", "4", "", "M", "", "", "SPFDMA96NAA", "P", "" ]
+, [ 258, "geo_rujc-agwg-1.258", null, null, null, null, null, null, "2369", "2115", "1935", "Radiology & Imaging Inc", "N", "", "", "", "", "", "780 Chestnut St", "", "Springfield", "", "01107", "", "Springfield", "42.12030002000000195039319805800914764404296875", "-72.6054001499999941415808279998600482940673828125", "3", "", "P", "", "", "", "", "" ]
+, [ 259, "geo_rujc-agwg-1.259", null, null, null, null, null, null, "2352", "2116", "1923", "Radius Ring Healthcare Center", "N", "", "", "", "", "", "215 Bicentennial Hwy", "", "Springfield", "", "01118", "", "Springfield", "42.095749019999999518404365517199039459228515625", "-72.510040250000002970409695990383625030517578125", "3", "", "P", "", "", "", "", "" ]
+, [ 260, "geo_rujc-agwg-1.260", null, null, null, null, null, null, "2366", "2117", "1932", "Rebecca M Johnson Sch Hlth Ctr", "N", "", "", "", "", "", "55 Catherine St", "", "Springfield", "MA", "01109", "", "Springfield", "42.11210601999999880717950873076915740966796875", "-72.5649801499999966836185194551944732666015625", "3", "", "P", "", "", "", "", "" ]
+, [ 261, "geo_rujc-agwg-1.261", null, null, null, null, null, null, "2370", "2121", "1936", "Reeds Landing", "N", "", "", "", "", "", "807 Wilbraham Rd", "", "Springfield", "MA", "01109", "", "Springfield", "42.1139340200000020786319510079920291900634765625", "-72.534859049999994340396369807422161102294921875", "3", "", "P", "", "", "", "", "" ]
+, [ 262, "geo_rujc-agwg-1.262", null, null, null, null, null, null, "1205", "1909", "858", "Springfield - Dept of Elderly Affairs", "X", "", "", "", "", "", "1600 E Columbus Ave", "", "Springfield", "", "01103", "", "Springfield", "42.10060002000000167754478752613067626953125", "-72.590999949999996943006408400833606719970703125", "6", "Department of Elder Affairs", "S", "", "", "SPFEMACCNAA", "P", "" ]
+, [ 263, "geo_rujc-agwg-1.263", null, null, null, null, null, null, "1206", "1910", "859", "Springfield - RMV Branch", "F", "", "", "", "", "", "165 Liberty St", "", "Springfield", "", "01104", "", "Springfield", "42.1087353799999988268609740771353244781494140625", "-72.591870650000004161483957432210445404052734375", "6", "Registry of Motor Vehicles", "S", "", "", "SPFDMAGENAC", "R", "" ]
+, [ 264, "geo_rujc-agwg-1.264", null, null, null, null, null, null, "2558", "1911", "859", "Springfield Department of Revenue", "Y", "", "", "", "", "", "436 Dwight St", "", "Springfield", "", "01104", "", "Springfield", "42.10611767000000327243469655513763427734375", "-72.5923955100000029005968826822936534881591796875", "6", "DOR", "S", "", "", "SPFDMAGENAF", "R", "" ]
+, [ 265, "geo_rujc-agwg-1.265", null, null, null, null, null, null, "2546", "1912", "1548", "Springfield Fire Department, E911 FS", "N", "1535", "", "Roosevelt", "", "Avenue", "1535 Roosevelt Avenue", "", "Springfield", "", "01109", "", "Springfield", "42.12329601999999795225448906421661376953125", "-72.5482661500000034493496059440076351165771484375", "4", "PSAP", "M", "", "", "SPFDMARVNAA", "R", "" ]
+, [ 266, "geo_rujc-agwg-1.266", null, null, null, null, null, null, "1209", "1913", "902", "Springfield Hearing Location", "Y", "", "", "", "", "", "436 Dwight St", "Room 305", "Springfield", "", "01103", "", "Springfield", "42.10611767000000327243469655513763427734375", "-72.5923955100000029005968826822936534881591796875", "6", "Civil Service Commission", "S", "", "", "SPFDMAIRNAP", "R", "" ]
+, [ 267, "geo_rujc-agwg-1.267", null, null, null, null, null, null, "309", "1914", "847", "Springfield Police Department, E911", "Y", "130", "", "Pearl", "", "Street", "130 Pearl Street", "", "Springfield", "", "01105", "", "Springfield", "42.10836814000000316582372761331498622894287109375", "-72.58545820000000503569026477634906768798828125", "4", "PSAP", "M", "", "", "SPFDMAPJNAA", "R", "EOPSS" ]
+, [ 268, "geo_rujc-agwg-1.268", null, null, null, null, null, null, "312", "2142", "881", "Drug Rehab (formerly Hampden Sherriff's Department)", "N", "", "", "", "", "", "311 State St", "", "Springfield", "", "01105", "", "Springfield", "42.10459991999999829204170964658260345458984375", "-72.581200150000000803629518486559391021728515625", "4", "Sheriffs", "S", "", "", "SPFDMAUENAA", "", "" ]
+, [ 269, "geo_rujc-agwg-1.269", null, null, null, null, null, null, "2381", "2145", "1946", "W. W. Johnson Life Ctr", "N", "", "", "", "", "", "736 State St", "", "Springfield", "MA", "01109", "", "Springfield", "42.110577919999997220656950958073139190673828125", "-72.5675815499999998792191036045551300048828125", "6", "", "M", "", "", "", "", "" ]
+, [ 270, "geo_rujc-agwg-1.270", null, null, null, null, null, null, "1211", "1915", "859", "Springfield State Office Bldg", "Y", "", "", "", "", "", "165 Liberty St", "", "Springfield", "", "01104", "", "Springfield", "42.1087353799999988268609740771353244781494140625", "-72.591870650000004161483957432210445404052734375", "6", "Bureau of State Office Buildings", "S", "", "", "SPFDMAGENAE", "R", "" ]
+, [ 271, "geo_rujc-agwg-1.271", null, null, null, null, null, null, "2572", "2182", "2104", "South End Community Center", "N", "", "", "", "", "", "29 Howard St", "", "Springfield", "", "01105", "", "Springfield", "42.0983238499999998794010025449097156524658203125", "-72.5806883599999963507798383943736553192138671875", "7", "", "M", "", "", "SPFDMAGQNAA", "", "" ]
+, [ 272, "geo_rujc-agwg-1.272", null, null, null, null, null, null, "2340", "2187", "1914", "Spectra Center", "N", "", "", "", "", "", "130 Maple St", "", "Springfield", "MA", "01103", "", "Springfield", "42.102402019999999538413248956203460693359375", "-72.591400149999998347993823699653148651123046875", "3", "", "P", "", "", "", "", "" ]
+, [ 273, "geo_rujc-agwg-1.273", null, null, null, null, null, null, "1444", "2189", "861", "Springfield Central High School", "X", "1840", "", "", "", "", "1840 Roosevelt Ave", "", "Springfield", "", "01109", "", "Springfield", "42.13124312000000060152160585857927799224853515625", "-72.546020249999997986378730274736881256103515625", "1", "High School", "M", "", "", "SPFDMAWMNAA", "P", "" ]
+, [ 274, "geo_rujc-agwg-1.274", null, null, null, null, null, null, "2392", "2190", "1907", "Springfield College Campus Police", "N", "", "", "", "", "", "263 Alden St", "", "Springfield", "", "01109", "", "Springfield", "42.10161518000000313577402266673743724822998046875", "-72.5567748600000044234548113308846950531005859375", "4", "Law Enforcement", "M", "", "", "", "", "" ]
+, [ 275, "geo_rujc-agwg-1.275", null, null, null, null, null, null, "863", "2191", "845", "Springfield Dialysis Center", "N", "", "", "", "", "", "125 Liberty St", "Suite 101", "Springfield", "", "01104", "", "Springfield", "42.10820241999999780091457068920135498046875", "-72.5935258500000060166712501086294651031494140625", "3", "ESRD Clinic", "P", "", "", "SPFDMANINAA", "", "" ]
+, [ 276, "geo_rujc-agwg-1.276", null, null, null, null, null, null, "1445", "2192", "846", "Springfield High School of Science & Technology", "X", "1250", "", "", "", "", "1250 State St", "", "Springfield", "", "01109", "", "Springfield", "42.11818579999999911933628027327358722686767578125", "-72.55037661000000070998794399201869964599609375", "1", "High School", "M", "", "", "SPFDMAAINAA", "P", "" ]
+, [ 277, "geo_rujc-agwg-1.277", null, null, null, null, null, null, "2394", "2193", "1931", "Springfield Police Department - Youth Assessment Center", "N", "", "", "", "", "", "417 Liberty St", "", "Springfield", "", "01104", "", "Springfield", "42.11530001999999939243934932164847850799560546875", "-72.5843001500000042369720176793634891510009765625", "4", "", "M", "", "", "", "", "" ]
+, [ 278, "geo_rujc-agwg-1.278", null, null, null, null, null, null, "1210", "2194", "935", "Springfield Partners for Community Action, Inc. (SPCA)", "N", "", "", "", "", "", "619 State St", "", "Springfield", "", "01109", "", "Springfield", "42.1087000200000005634137778542935848236083984375", "-72.571700149999998075145413167774677276611328125", "6", "Division of Housing & Community Development", "S", "", "", "", "", "" ]
+, [ 279, "geo_rujc-agwg-1.279", null, null, null, null, null, null, "2382", "2195", "1947", "Springfield- LGR Region I", "N", "", "", "", "", "", "Glenvale St", "", "Springfield", "", "01119", "", "Springfield", "42.106802020000003494715201668441295623779296875", "-72.5122781500000002097294782288372516632080078125", "6", "", "M", "", "", "", "", "" ]
+ ]
+}
