@@ -161,7 +161,7 @@ function renderTableOverride()
                              
                               if(window.addOnSettings[prop] == "1")
                               {
-                                matchedAddOns = matchedAddOns +  window.encodings[prop] + ',';
+                                 matchedAddOns = matchedAddOns + '<span style="color:red">' +window.encodings[prop]+'</span>'+',';
                               }
                               else
                               {
