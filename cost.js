@@ -35,43 +35,31 @@ var addOnSettings = {
 };
 
 $(document).ready(function() {
-      //debugger;
+      
     // Get unique vendor from the list
+  
     var uniqueVendorNames = _.pluck(_.uniq(servicesData, function(obj)
-                   {return obj.vendor;}), 'vendor'); 
-
+                   {return obj.service;}), 'service'); 
+         
     _.each(uniqueVendorNames, function(obj) {
-        $("#vendor_type").append("<li><a>" + obj + "</a></li>");
+        $("#service_type").append("<li><a>" + obj + "</a></li>");
     });
 
-   $('.dropdown-menu li a').click(function() {
-		//console.log("enterres");
-        
-        var that = this;
-        $('#service2').show();
-        $(this).parents(".input-group-btn").find('.btn').html($(this).text() + '&nbsp;&nbsp;<span class="caret"></span>');
-        
-        // Declare sected vendor name as global function
-        window.vendor = $(this).text();
-        //var data = jsonstr;
-
-        // Pick objects with selected vendor name and then find unique service types
-        window.selectedVendorObjects = _.where(servicesData, {vendor: $(this).text()});
-        var uniqueObjects = _.uniq(selectedVendorObjects, function(obj) {
-           return obj.service;
-        });
-        var uniqueServiceNames = _.pluck(uniqueObjects, 'service');
-        $("#service_type").empty();
-         _.each(uniqueServiceNames, function(obj) {
-            $("#service_type").append("<li><a>" + obj + "</a></li>");
-        });
-        clearTable();
+ 
 
           $('#service_type a').click(function() {
                 $('#range1').show(); 
                   $('#serviceType').html($(this).text() + '<span class="caret"></span>');
-                  var selectedServiceObjects = _.where(selectedVendorObjects, {service: $(this).text()});
-                  window.speedRanges = _.pluck(selectedServiceObjects, 'speed');
+                  //debugger;
+                  var selectedServiceObjects = _.where(servicesData, {service: $(this).text()});
+                  
+                var selectedServiceTypes  = _.pluck(selectedServiceObjects, 'speed');
+                //extracting unique elements from the service type
+               var uniqueObjects = _.uniq(selectedServiceObjects, function(obj) {
+                            return obj.speed;
+                          });
+                window.speedRanges=_.pluck(uniqueObjects, 'speed');
+                     console.log(selectedServiceObjects);
                      _.each(speedRanges, function(obj) {
                         $("#bandwidth_range").append("<li><a>" + obj + "</a></li>");
                     });
@@ -94,7 +82,7 @@ $(document).ready(function() {
             });    
     });
 
-});
+//});
 
 
 function maxRange(min,speedRanges) {
@@ -142,37 +130,67 @@ function result() {
 
 //check box functionality
 $('.customservice').change(function() {
-    //debugger;
+    
     $("#costData").empty();
      var propName = $(this).attr('id'); 
      window.addOnSettings[propName] = $('#'+propName).is(':checked') ? "1" : "0";
-    renderTable();
-});
-
-function renderTable() {
- 
- var enabledProps = {};
- for (prop in addOnSettings) {
-    if(addOnSettings[prop] == "1") {
-        enabledProps[prop] = addOnSettings[prop];
-    }
- };
-
- //debugger;
- var customServiceObjects = _.where(window.speedRangeSeviceObjects, enabledProps);
- _.each(customServiceObjects, function(obj) {
-    var selectedAddOns = '';
-    for (prop in window.addOnSettings)
-    {
-        if(window.addOnSettings[prop] == "1") {
-            selectedAddOns = selectedAddOns + window.encodings[prop] + ','; 
-             $("#costData").append("<tr>" + "<td >" + obj.vendor + "</td>" + "<td>" + obj.service + "</td>" + "<td>" + obj.speed + "</td>" + "<td>" + obj.monthly_cost + "</td>" +
-                            "<td>" + selectedAddOns + "</td>" + "</tr>");
-        }
-    }
-    
+     
+    renderTableOverride();
   });
-};
+
+function renderTableOverride()
+{
+ var selectedService = $("#serviceType").text();
+    var min = parseInt($("#minSpeed").text());
+    var max = parseInt($("#maxSpeed").text());
+
+    var that = this; 
+    window.speedRangeSeviceObjects = [];
+     _.each(servicesData, function(obj) {
+     
+            if( (obj.service == selectedService) && (parseInt(obj.speed) > that.parseInt(min))  && (parseInt(obj.speed) < that.parseInt(max))) {
+                    window.speedRangeSeviceObjects.push(obj);
+                    var matchedAddOns = '';
+                    var matchedAddOns2 = '';
+                    //  var matchedAddOns1 = '';
+                    for (var prop in obj) {
+                    //  debugger;
+                          
+                             if( obj[prop] == "1")
+                            {   
+                             
+                              if(window.addOnSettings[prop] == "1")
+                              {
+                                matchedAddOns = matchedAddOns +  window.encodings[prop] + ',';
+                              }
+                              else
+                              {
+                                 matchedAddOns = matchedAddOns+  window.encodings[prop] + ',';
+                              }
+                            
+                            }
+                        }
+
+                           for (var prop in obj) {
+                            if( obj[prop] == "1"&&window.addOnSettings[prop] == "1")
+                            {   
+
+                              matchedAddOns2=matchedAddOns;
+                           }
+                         }
+                       
+                   
+                 
+                   if(matchedAddOns2.match(/E Rate/g))
+                   {
+                   // debugger;
+               $("#costData").append("<tr>" + "<td >" + obj.vendor + "</td>" + "<td>" + obj.service + "</td>" + "<td>" + obj.speed + "</td>" + "<td>" + obj.monthly_cost + "</td>" +
+                        "<td>" + matchedAddOns2 + "</td>" + "</tr>");
+             }
+            }       
+        }, that); 
+}
+
 
 function clearTable()
 {

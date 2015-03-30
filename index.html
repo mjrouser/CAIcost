@@ -1,6 +1,7 @@
 <html>
+
 <head>
-    <title>Bootstrap Example</title>
+    <title>Cost Comparison Tool</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Latest compiled and minified CSS -->
@@ -12,17 +13,15 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.2/underscore.js"></script>
     <script src="Sampledata1.jsonp"></script>
-	 <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.2/underscore.js"></script>
-	<!--table sorting-->
-	 <script src="https://cdn.datatables.net/1.10.5/js/jquery.dataTables.min.js"></script>
-	 <script src="https://cdn.datatables.net/plug-ins/f2c75b7247b/integration/bootstrap/3/dataTables.bootstrap.js"></script>
-	<link rel="stylesheet" href="https://cdn.datatables.net/plug-ins/f2c75b7247b/integration/bootstrap/3/dataTables.bootstrap.css">
-	<!--External Style sheet-->
-	<link rel="stylesheet" href="cost.css">
-	
+    <!--table sorting-->
+    <script src="https://cdn.datatables.net/1.10.5/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/plug-ins/f2c75b7247b/integration/bootstrap/3/dataTables.bootstrap.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/plug-ins/f2c75b7247b/integration/bootstrap/3/dataTables.bootstrap.css">
+    <!--External Style sheet-->
+    <link rel="stylesheet" href="cost.css">
 </head>
-
 
 <body>
 
@@ -31,33 +30,11 @@
         <h2 align="center" style="color:#265a88">Cost Comparison Tools</h2>
     </div>
 
-    <!--Adding Vendor type dropdown list-->
-
-    <div class="row">
-        <div class="col-sm-2">Select Vendor Type</div>
-
-        <div class="col-sm-10">
-            <div class="input-group-btn">
-                <div class="input-group" style="width:50%">
-                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Vendor <span class="caret"></span></button>
-                    <ul class="dropdown-menu" role="menu" id="vendor_type">
-
-                    </ul>
-                </div>
-                <!-- /btn-group -->
-
-            </div>
-            <!-- /input-group -->
-
-        </div>
-        <!--ending col-lg-3 -->
-    </div>
-    <!--ending col-lg-2 -->
-
+ 
     <br/>
 
     <!--This dropdown list for vendor x and vendor y-->
-    <div class="row " style="display:none;" id="service2">
+    <div class="row " style="display:block;" id="service2">
         <div class="col-sm-2">
             Select Service Type</div>
 
@@ -130,7 +107,7 @@
     <!--ending row for service type dropdown list-->
 
     <p data-toggle="collapse" data-target="#demo" id="toggle" style="display:none">
-        <a>Show More Details</a>
+        <a>Additional Filters</a>
     </p>
 
 
@@ -186,7 +163,7 @@
             <div class="row">
                 <div class="col-sm-2">Anti-virus</div>
                 <div class="col-sm-10">
-                    <input type="checkbox" id="anti_virus" class="grouping customservice">&nbsp;Available
+                    <input type="checkbox" id="anti_vir" class="grouping customservice">&nbsp;Available
                 </div>
                 <!--ending for col-lg-4-->
             </div>
