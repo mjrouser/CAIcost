@@ -31,6 +31,14 @@ font-family: "ff-good-headline-web-pro-con",
 	text-align: center;
 	margin: 5px 0 1px 0;
 }
+.seal{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+       margin-top: 10px;
+       margin-left: 10px;
+}
+
 .headline{
 	font-size: 2.25em;
 }
